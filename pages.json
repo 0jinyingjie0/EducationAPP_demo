@@ -7,6 +7,12 @@
 			}
 		},
 		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
 			"path": "pages/component/pages",
 			"style": {
 				"navigationBarTitleText": "详情页1"
@@ -22,7 +28,7 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "pink",
+		"navigationBarBackgroundColor": "#b4ead9",
 		"backgroundColor": "#F8F8F8",
 		"app-plus": {
 			"background": "#efeff4"
