@@ -1,17 +1,55 @@
 {
-	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-app"
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/component/pages",
+			"style": {
+				"navigationBarTitleText": "详情页1"
+			}
+		},
+		{
+			"path": "pages/component/my",
+			"style": {
+				"navigationBarTitleText": "详情页2"
+			}
 		}
-	}],
+],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "pink",
 		"backgroundColor": "#F8F8F8",
 		"app-plus": {
 			"background": "#efeff4"
 		}
-	}
+	},
+	"tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+			{
+        "pagePath": "pages/index/index",
+        "iconPath": "static/api.png",
+        "selectedIconPath": "static/c1.png",
+        "text": "首页"
+    },
+			{
+        "pagePath": "pages/component/pages",
+        "iconPath": "static/api.png",
+        "selectedIconPath": "static/c1.png",
+        "text": "组件"
+    }, {
+        "pagePath": "pages/component/my",
+        "iconPath": "static/api.png",
+        "selectedIconPath": "static/c1.png",
+        "text": "接口"
+    }]
+}
 }
