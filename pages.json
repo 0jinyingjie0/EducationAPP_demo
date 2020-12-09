@@ -12,7 +12,11 @@
 		{
 			"path": "pages/login/login",
 			"style": {
-				"navigationBarTitleText": "登录"
+				"navigationBarTitleText": "",
+				// "enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"scrollIndicator":"none",
+				"show-scrollbar":"false"
 			}
 		},
 		{
