@@ -64,28 +64,6 @@
           <img src="../Img/loginImg/QQ.png" alt="">
         </div>
       </div>
-      <!-- <view class="bodyContainer">
-        <u-field
-          v-model="userName"
-          label="用户名"
-          right-icon="account-fill"
-          placeholder="请填写用户名"
-        >
-        </u-field>
-        <u-field
-          v-model="password"
-          label="密码"
-          password
-          right-icon="lock-fill"
-          placeholder="请填写密码"
-        >
-        </u-field>
-        <u-button type="success" class="toLogin" @click="toLogin">登录</u-button>
-        <view class="registerContainer">
-          <text>没有账号？</text
-          ><text style="color: #1e19de" @click="toRegister">马上注册</text>
-        </view>
-      </view> -->
     </view>
     <u-loading mode="circle" :show="loading" color="ligntblue" size="100"></u-loading>
     <u-toast ref="uToast" />
@@ -194,6 +172,7 @@ export default {
       });
     },
     toRegister() {
+      console.log('1231213');
       uni.navigateTo({
         url: "../login/register",
       });
@@ -280,6 +259,7 @@ export default {
           /deep/ .u-checkbox__icon-wrap--checked[data-v-54acf820] {
             width: 10px !important;
             height: 10px !important;
+            border-radius: 0px;
           }
           /deep/ .u-checkbox__label[data-v-54acf820] {
             // width: 39px;
