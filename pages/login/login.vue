@@ -19,16 +19,51 @@
         <div class="card">
           <div class="cardTittle">XXX大学</div>
           <div class="userName">
-            <img src="../Img/loginImg/yonghuming.png" alt="">
-            <u-input class="" v-model="value" type="text" border="true" placeholder="请输入账号/手机号" />
+            <img src="../Img/loginImg/yonghuming.png" alt="" />
+            <u-input
+              class=""
+              v-model="userName"
+              type="text"
+              border
+              placeholder="请输入账号/手机号"
+            />
           </div>
           <div class="userPass">
-            <img src="../Img/loginImg/mima.png" alt="">
-            <u-input v-model="value" type="text" border="true" />
+            <img src="../Img/loginImg/mima.png" alt="" />
+            <u-input v-model="password" type="text" border />
+          </div>
+          <div class="passwordBox">
+            <div class="rememberPassword">
+              <u-checkbox-group>
+                <u-checkbox v-model="rememberPassword" active-color="#43B4AE"
+                  >记住密码</u-checkbox
+                >
+              </u-checkbox-group>
+            </div>
+            <div class="forgetPassword">忘记密码？</div>
+          </div>
+
+          <u-button class="login" @click="toLogin">登录</u-button>
+
+          <div class="registerContainer">
+            新用户？
+            <span class="register" @click="toRegister">立即注册</span>
           </div>
         </div>
       </div>
-
+      <div class="segmentation">
+        <img src="../Img/loginImg/zuo.png" alt="" />
+        <div class="thirdPartyBoard">第三方登录</div>
+        <img src="../Img/loginImg/you.png" alt="" />
+      </div>
+      <div class="footer">
+        <div class="weixin">
+          <img src="../Img/loginImg/vx.png" alt="">
+        </div>
+        <div class="qq">
+          <img src="../Img/loginImg/QQ.png" alt="">
+        </div>
+      </div>
       <!-- <view class="bodyContainer">
         <u-field
           v-model="userName"
@@ -65,6 +100,7 @@ export default {
       loading: false,
       userName: "",
       password: "",
+      rememberPassword: "",
       background: {
         "background-image": "url('../Img/loginImg/back.png')",
         // "height":"54.8px"
@@ -203,12 +239,15 @@ export default {
           padding-left: 51px !important;
           .uni-input-placeholder {
             width: 92.5px;
-            height: 12px;
-            font-size:12px;
+            // height: 12px;
+            height: 10.5px;
+            // font-size: 12px;
+            font-size: 11px;
             font-family: PingFang SC;
             font-weight: 500;
             color: #999999;
-            line-height: 12px;
+            // line-height: 12px;
+            line-height: 7px;
           }
         }
       }
@@ -223,9 +262,9 @@ export default {
         }
       }
       .userPass {
-         margin-top: 23px;
-         position: relative;
-         img {
+        margin-top: 23px;
+        position: relative;
+        img {
           width: 10px;
           height: 16px;
           position: absolute;
@@ -233,26 +272,97 @@ export default {
           left: 17.5px;
         }
       }
+      .passwordBox {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 12px;
+        .rememberPassword {
+          /deep/ .u-checkbox__icon-wrap--checked[data-v-54acf820] {
+            width: 10px !important;
+            height: 10px !important;
+          }
+          /deep/ .u-checkbox__label[data-v-54acf820] {
+            // width: 39px;
+            width: 48px;
+            height: 10.5px;
+            font-size: 10px !important;
+            font-family: PingFang SC;
+            font-weight: 400;
+            color: #333;
+            line-height: 7px;
+          }
+        }
+        .forgetPassword {
+          // width: 44.5px;
+          width: 60px;
+          height: 10px;
+          font-size: 10px;
+          font-family: PingFang SC;
+          font-weight: 500;
+          color: #43b4ae;
+          // line-height: 7px;
+        }
+      }
+      .login {
+        margin: 32.5px auto 10.5px;
+        width: 240px;
+        height: 36px;
+        background: #43b4ae;
+        border-radius: 5px;
+      }
+      .registerContainer {
+        // width: 79.5px;
+        width: 130px;
+        height: 9.5px;
+        font-size: 10px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #999999;
+        line-height: 7px;
+        margin: 0 auto;
+        .register {
+          color: #43b4ae;
+        }
+      }
     }
   }
-
-  .bodyContainer {
-    width: 80%;
-    height: 15rem;
-    margin: 0 auto;
-    margin-top: 2.5rem;
+  .segmentation {
+    margin-top: 69px;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 100px;
+      height: 4px;
+    }
+    .thirdPartyBoard {
+      // width: 49px;
+      width: 60px;
+      height: 9.5px;
+      margin: 0 10px;
+      font-size: 10px;
+      font-family: PingFang SC;
+      font-weight: 400;
+      color: #999999;
+      line-height: 7px;
+    }
   }
-
-  .toLogin {
-    margin-top: 4rem;
-  }
-
-  .registerContainer {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 1rem;
+  .footer {
+    margin-top: 44px;
+    .weixin,
+    .qq {
+      float: left;
+      width: 36px;
+      height: 36px;
+      img {
+        width: 100%;
+      }
+    }
+    .weixin {
+      margin-left: 118.5px;
+    }
+    .qq {
+      margin-left: 66px;
+    }
   }
 }
 </style>
