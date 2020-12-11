@@ -30,15 +30,27 @@
 			}
 		},
 		{
-			"path": "pages/component/pages",
+			"path": "pages/courseModule/courseDiscussion",
 			"style": {
-				"navigationBarTitleText": "详情页1"
+				"navigationBarTitleText": "课程讨论"
 			}
 		},
 		{
-			"path": "pages/component/my",
+			"path": "pages/courseModule/coursePlay",
 			"style": {
-				"navigationBarTitleText": "详情页2"
+				"navigationBarTitleText": "课程点播"
+			}
+		},
+		{
+			"path": "pages/courseModule/enterCourse",
+			"style": {
+				"navigationBarTitleText": "进入课程"
+			}
+		},
+		{
+			"path": "pages/courseModule/detailAnswer",
+			"style": {
+				"navigationBarTitleText": "课程讨论"
 			}
 		}
 ],

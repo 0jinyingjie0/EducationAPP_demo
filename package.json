@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/0jinyingjie0/EducationAPP_demo#readme",
   "dependencies": {
-    "uview-ui": "^1.8.2"
+    "uview-ui": "^1.8.2",
+    "vue-video-player": "^5.0.2",
+    "xgplayer": "^2.14.4"
   }
 }
