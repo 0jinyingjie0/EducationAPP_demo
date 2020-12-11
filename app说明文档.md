@@ -10,6 +10,7 @@
   - 文件下主要是uni-app的第三方
 - pages
   - component：存放公共的组件
+  - courseModule：存放课程部分的所有页面
   - img：存放页面的图片
   - index：首页
   - login：登录和注册页面
