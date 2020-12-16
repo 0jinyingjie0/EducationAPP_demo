@@ -217,16 +217,13 @@ export default {
         .u-input {
           padding-left: 51px !important;
           .uni-input-placeholder {
-            width: 92.5px;
-            // height: 12px;
-            height: 10.5px;
-            // font-size: 12px;
-            font-size: 11px;
+            width: 105px;
+            height: 12px;
+            font-size: 12px;
             font-family: PingFang SC;
             font-weight: 500;
             color: #999999;
-            // line-height: 12px;
-            line-height: 7px;
+            line-height: 12px;
           }
         }
       }
@@ -264,12 +261,12 @@ export default {
           /deep/ .u-checkbox__label[data-v-54acf820] {
             // width: 39px;
             width: 48px;
-            height: 10.5px;
-            font-size: 10px !important;
+            height: 12px;
+            font-size: 12px !important;
             font-family: PingFang SC;
             font-weight: 400;
             color: #333;
-            line-height: 7px;
+            line-height: 12px;
           }
         }
         .forgetPassword {

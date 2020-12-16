@@ -30,11 +30,21 @@
           </div>
           <div class="userPass">
             <img src="../Img/loginImg/mima.png" alt="" />
-            <u-input v-model="password" type="text" border placeholder="请输入密码" />
+            <u-input
+              v-model="password"
+              type="text"
+              border
+              placeholder="请输入密码"
+            />
           </div>
           <div class="userPass">
             <img src="../Img/loginImg/mima.png" alt="" />
-            <u-input v-model="passwordAG" type="text" border placeholder="再次输入密码" />
+            <u-input
+              v-model="passwordAG"
+              type="text"
+              border
+              placeholder="再次输入密码"
+            />
           </div>
 
           <u-button class="login" @click="toLogin">登录</u-button>
@@ -43,14 +53,21 @@
             <u-checkbox-group>
               <u-checkbox v-model="rememberPassword" active-color="#43B4AE"
                 >同意
-                <span class="register" @click="toSearch">《隐私政策》</span></u-checkbox
+                <span class="register" @click="toSearch"
+                  >《隐私政策》</span
+                ></u-checkbox
               >
             </u-checkbox-group>
           </div>
         </div>
       </div>
     </view>
-    <u-loading mode="circle" :show="loading" color="ligntblue" size="100"></u-loading>
+    <u-loading
+      mode="circle"
+      :show="loading"
+      color="ligntblue"
+      size="100"
+    ></u-loading>
     <u-toast ref="uToast" />
   </view>
 </template>
@@ -61,15 +78,14 @@ export default {
     return {
       userName: "",
       password: "",
-	  passwordAG: "",
-	  rememberPassword:'',
-	  loading: false
-	  
+      passwordAG: "",
+      rememberPassword: "",
+      loading: false,
     };
   },
   methods: {
-	  toLogin(){},
-	  toSearch(){}
+    toLogin() {},
+    toSearch() {},
   },
 };
 </script>
@@ -110,16 +126,13 @@ export default {
         .u-input {
           padding-left: 51px !important;
           .uni-input-placeholder {
-            width: 92.5px;
-            // height: 12px;
-            height: 10.5px;
-            // font-size: 12px;
-            font-size: 11px;
+            width: 105px;
+            height: 12px;
+            font-size: 12px;
             font-family: PingFang SC;
             font-weight: 500;
             color: #999999;
-            // line-height: 12px;
-            line-height: 7px;
+            line-height: 12px;
           }
         }
       }
@@ -155,27 +168,27 @@ export default {
       .registerContainer {
         // width: 79.5px;
         width: 130px;
-        height: 9.5px;
-        font-size: 10px;
+        height: 12px;
+        font-size: 12px;
         font-family: PingFang SC;
         font-weight: 400;
         color: #999999;
-        line-height: 7px;
+        line-height: 12px;
         margin: 0 auto;
         /deep/ .u-checkbox__icon-wrap--square[data-v-54acf820] {
           width: 10px !important;
-		  height: 10px !important;
-		  border-radius: 0px;
+          height: 10px !important;
+          border-radius: 0px;
         }
         /deep/ .u-checkbox__label[data-v-54acf820] {
-        //   width: 73.5px;
+          //   width: 73.5px;
           width: 97px;
-          height: 9.5px;
-          font-size: 10px;
+          height: 12px;
+          font-size: 12px;
           font-family: PingFang SC;
           font-weight: 400;
           color: #999999;
-          line-height: 7px;
+          line-height: 12px;
         }
         .register {
           color: #43b4ae;
