@@ -13,7 +13,7 @@
 			"path": "pages/login/login",
 			"style": {
 				"navigationBarTitleText": "",
-				// "enablePullDownRefresh": false,
+				"enablePullDownRefresh": false,
 				"navigationStyle": "custom",
 				"scrollIndicator":"none",
 				"show-scrollbar":"false"
@@ -52,12 +52,18 @@
 			"style": {
 				"navigationBarTitleText": "课程讨论"
 			}
+		},
+		{
+			"path": "pages/component/scoreInquiry",
+			"style": {
+				"navigationBarTitleText": "成绩查询"
+			}
 		}
 ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#b4ead9",
+		"navigationBarBackgroundColor": "#fff",
 		"backgroundColor": "#F8F8F8",
 		"app-plus": {
 			"background": "#efeff4"
