@@ -8,10 +8,27 @@
       :is-back="isBack"
       :title="title"
     >
-      <div slot="right" class="slot-wrap" @click="submit">提交</div>
+      <div slot="right" class="slot-wrap" @click="submit">
+        <img src="../Img/courseImg/xiaoxi.png" alt="" />
+      </div>
     </u-navbar>
 
-    <div class="contentBox"></div>
+    <div class="contentBox">
+      <div class="messageBox" v-for="(item,index) in contentList" :key="index">
+        <div class="imgAndTitle">
+          <div class="img">
+            <img src="../Img/courseImg/touxiang.png" alt="" />
+          </div>
+          <div class="title">
+            大家对第二章第一节怎么理解的大家对第二章第一节怎么理解的大家对第二章第一节怎么理解的
+          </div>
+        </div>
+        <div class="nameAndTime">
+          <div class="name">赵明明</div>
+          <div class="time">2020.12.17</div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -22,6 +39,9 @@ export default {
       isBack: true,
       title: "课程讨论",
       isFixed: true,
+      contentList:[
+        {},{}
+      ]
     };
   },
   methods: {
@@ -42,8 +62,69 @@ export default {
     font-family: PingFang SC;
     font-weight: 500;
     color: #666666;
+    img {
+      width: 24px;
+      height: 20px;
+    }
   }
   .contentBox {
+    .messageBox {
+      width: 100%;
+      height: 90px;
+      // border-bottom: 1px solid #000;
+      margin-bottom: 1px;
+      .imgAndTitle {
+        margin-top: 10px;
+        height: 48.5px;
+        display: flex;
+        justify-content: left;
+        .img {
+          width: 40px;
+          height: 48.5px;
+          margin-left: 16px;
+          img {
+            width: 100%;
+          }
+        }
+        .title {
+          width: 280px;
+          margin-left: 10.5px;
+          margin-top: 13.5px;
+          margin-right: 28px;
+          box-sizing: border-box;
+          font-size: 14px;
+          font-family: PingFang SC;
+          font-weight: 500;
+          color: #999999;
+          word-break: break-all;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+        }
+      }
+      .nameAndTime {
+        width: 100%;
+        margin-top: 6px;
+        .name {
+          float: left;
+          margin-left: 15px;
+          font-size: 14px;
+          font-family: PingFang SC;
+          font-weight: 500;
+          color: #999999;
+        }
+        .time {
+          float: right;
+          margin-right: 15px;
+          font-size: 14px;
+          font-family: PingFang SC;
+          font-weight: 500;
+          color: #999999;
+        }
+      }
+    }
   }
 }
 </style>
