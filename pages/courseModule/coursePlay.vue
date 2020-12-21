@@ -128,6 +128,9 @@ export default {
 </script>
 
 <style>
+page {
+  background-color: #fafafa !important;
+}
 html,
 body {
   width: 100%;

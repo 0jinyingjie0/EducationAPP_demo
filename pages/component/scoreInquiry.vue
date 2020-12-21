@@ -74,6 +74,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+page {
+  background-color: #fafafa !important;
+}
 .scoreInquiry {
   /deep/ .u-scroll-box {
     height: 49.5px !important;

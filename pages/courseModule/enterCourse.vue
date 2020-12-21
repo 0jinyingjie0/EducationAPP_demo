@@ -24,5 +24,7 @@ export default {
 </script>
 
 <style>
-
+page {
+  background-color: #fafafa !important;
+}
 </style>

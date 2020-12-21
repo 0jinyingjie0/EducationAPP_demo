@@ -78,7 +78,7 @@
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#fff",
-		"backgroundColor": "#F8F8F8",
+		"backgroundColor": "pink",
 		"app-plus": {
 			"background": "#efeff4"
 		}

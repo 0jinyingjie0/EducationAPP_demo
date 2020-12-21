@@ -17,7 +17,7 @@
         v-model="value"
         type="textarea"
         height="142"
-        placeholder="输入问题..."
+        placeholder="描述问题..."
       />
     </div>
   </div>
@@ -42,6 +42,9 @@ export default {
 </script>
 
 <style scoped lang="scss" scoped>
+page {
+  background-color: #fafafa !important;
+}
 .courseDiscussion {
   .slot-wrap {
     display: flex;
@@ -56,7 +59,7 @@ export default {
     width: 345px;
     height: 142px;
     background: #ffffff;
-    border: 1px solid #ccc;
+    // border: 1px solid #ccc;
     margin: 9.5px auto 0;
   }
   .uni-textarea-placeholder {

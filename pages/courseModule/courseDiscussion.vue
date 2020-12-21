@@ -52,7 +52,10 @@ export default {
 };
 </script>
 
-<style scoped lang="scss" scoped>
+<style scoped lang="scss" >
+page {
+  background-color: #fafafa !important;
+}
 .courseDiscussion {
   .slot-wrap {
     display: flex;
@@ -72,6 +75,7 @@ export default {
       width: 100%;
       height: 90px;
       // border-bottom: 1px solid #000;
+      background-color: #fff;
       margin-bottom: 1px;
       .imgAndTitle {
         margin-top: 10px;
