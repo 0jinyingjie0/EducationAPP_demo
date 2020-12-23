@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- 进入课程页面 -->
+    <!-- 课程点播页面 -->
     <div class="demo">
       <video-player
         class="video-player vjs-custom-skin"

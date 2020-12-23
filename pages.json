@@ -72,6 +72,12 @@
 			"style": {
 				"navigationBarTitleText": "成绩查询"
 			}
+		},
+		{
+			"path": "pages/component/customerServe",
+			"style": {
+				"navigationBarTitleText": "导学老师"
+			}
 		}
 ],
 	"globalStyle": {
