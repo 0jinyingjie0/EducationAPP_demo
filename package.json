@@ -17,7 +17,18 @@
   },
   "homepage": "https://github.com/0jinyingjie0/EducationAPP_demo#readme",
   "dependencies": {
+    "vant": "^2.12.0",
     "vue-video-player": "^5.0.2",
+    "vue": "^2.6.11",
     "xgplayer": "^2.14.4"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.3"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
   }
 }

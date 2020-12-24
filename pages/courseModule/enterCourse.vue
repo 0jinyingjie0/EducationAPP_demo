@@ -3,9 +3,46 @@
     <!-- 进入课程页面 -->
     <div class="gradeBox">
       <div class="number">
-        <div>30分</div>
-        <div>0分</div>
-        <div>30分</div>
+        <div>
+          <van-circle
+            v-model="currentRate1"
+            :rate="70"
+            :color="gradientColor"
+            layer-color="#ebedf0"
+            :stroke-width="120"
+            stroke-linecap="round"
+            :text="text"
+          />
+        </div>
+        <div>
+          <van-circle
+            v-model="currentRate2"
+            :rate="0"
+            :color="gradientColor"
+            layer-color="#ebedf0"
+            :stroke-width="120"
+            stroke-linecap="round"
+            text="0分"
+          />
+        </div>
+        <div>
+          <van-circle
+            v-model="currentRate3"
+            :rate="70"
+            :color="gradientColor"
+            layer-color="#ebedf0"
+            :stroke-width="120"
+            stroke-linecap="round"
+            size="70px"
+            :text="text"
+          />
+          <!-- <u-circle-progress active-color="#2979ff" :percent="30">
+            <view class="u-progress-content">
+              <view class="u-progress-dot"></view>
+              <text class="u-progress-info">30分</text>
+            </view>
+          </u-circle-progress> -->
+        </div>
       </div>
       <div class="title">
         <div>在线成绩</div>
@@ -154,7 +191,7 @@
         <div class="foot"></div>
       </div>
 
-        <div class="detaileBox">
+      <div class="detaileBox">
         <div class="topBox">
           <div class="icon">
             <img src="../Img/enterCourse/kaoshi.png" alt="" />
@@ -181,10 +218,26 @@
 </template>
 
 <script>
+// import Circle from 'vant/lib/circle';
+// import 'vant/lib/circle/style';
 export default {
   components: {},
   data() {
-    return {};
+    return {
+      currentRate1: 0,
+      currentRate2: 0,
+      currentRate3: 0,
+      rate: 30,
+      text: "70分",
+      // gradientColor: {
+      //   "0%": "#91efe8",
+      //   "100%": "#ccc",
+      // },
+      gradientColor: {
+        "0%": "#91FEF8",
+        "100%": "#3CBCFF",
+      },
+    };
   },
   mounted() {},
   methods: {
@@ -197,6 +250,7 @@ export default {
 page {
   background-color: #fafafa !important;
 }
+
 .enterCourse {
   background-color: #fff;
   width: 355px;
@@ -205,11 +259,12 @@ page {
     width: 100%;
     height: 175px;
     // border: 1px solid pink;
+    padding-top: 28px;
     .number {
       width: 100%;
       height: 70px;
       // background-color: #ccc;
-      margin-top: 28px;
+      // margin-top: 28px;
       display: flex;
       justify-content: space-around;
       div {
@@ -218,7 +273,22 @@ page {
         line-height: 70px;
         text-align: center;
         border-radius: 50%;
-        background-color: rgb(17, 174, 236);
+        // background-color: rgb(17, 174, 236);
+        position: relative;
+        /deep/ .van-circle__hover {
+          fill: #fff;
+        }
+        /deep/ .van-circle__text {
+          width: 32px;
+          position: absolute;
+          left: 19px;
+          top: 0px;
+          font-size: 14px;
+          font-family: PingFang SC;
+          font-weight: 500;
+          color: #666666;
+        }
+      
       }
     }
     .title {

@@ -4,6 +4,10 @@ import store from "./pages/store/";
 import {request,uploadFile} from "./common/request.js";
 import uView from "uview-ui";
 
+import { Circle } from 'vant';
+
+Vue.use(Circle);
+
 Vue.prototype.$request = request;
 Vue.prototype.$uploadFile = uploadFile;
 
