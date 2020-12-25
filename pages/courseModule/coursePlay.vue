@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="coursePlay">
     <!-- 课程点播页面 -->
     <div class="demo">
       <video-player
@@ -20,8 +20,34 @@
         @ready="playerReadied"
       >
       </video-player>
-      <div @click="onon">播放</div>
-      <div @click="down">暂停</div>
+      <!-- <div @click="onon">播放</div>
+      <div @click="down">暂停</div> -->
+    </div>
+    <div class="centerBox">
+      <div class="navBox">
+        <div class="left">
+          <div class="section">章节</div>
+          <div class="bottomLine"></div>
+        </div>
+        <div class="right">播放选择</div>
+        <div class="mid">完成学习倒计时363秒</div>
+      </div>
+
+      <div class="detaileBox">
+        <u-collapse>
+          <u-collapse-item title="课程案例">
+            <div class="imgAndText">
+              <div class="imgAndTittle">
+                <div class="img">
+                  <img src="../Img/courseImg/shipin.png" alt="" />
+                </div>
+                <div class="title">案例一：中国的财政政策</div>
+              </div>
+              <div class="text">需学习10分0秒，已学习5分30秒</div>
+            </div>
+          </u-collapse-item>
+        </u-collapse>
+      </div>
     </div>
   </div>
 </template>
@@ -128,7 +154,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
 page {
   background-color: #fafafa !important;
 }
@@ -139,10 +165,119 @@ body {
   margin: auto;
   overflow: hidden;
 }
-/* body {
-  display: flex;
+.coursePlay {
+  /deep/ .u-icon__icon[data-v-6e20bb40] {
+    opacity: 0.6;
+  }
+  .centerBox {
+    // background-color: pink;
+    .navBox {
+      width: 345px;
+      height: 41px;
+      margin: 0 auto;
+      border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+      .left {
+        height: 41px;
+        float: left;
+        .section {
+          width: 26px;
+          height: 13px;
+          font-size: 13px;
+          font-family: PingFang SC;
+          font-weight: bold;
+          color: #333333;
+          margin-top: 21px;
+        }
+        .bottomLine {
+          width: 15px;
+          height: 3px;
+          background: #43b4ae;
+          margin: 0 auto;
+          margin: 5px;
+        }
+      }
+      .mid {
+        height: 41px;
+        line-height: 41px;
+        line-break: 41px;
+        float: right;
+        font-size: 12px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #999999;
+        margin-right: 10px;
+      }
+      .right {
+        float: right;
+        width: 61px;
+        height: 19px;
+        border: 1px solid #43b4ae;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 12px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #43b4ae;
+        line-height: 19px;
+        margin-top: 11px;
+      }
+    }
+    .detaileBox {
+      /deep/ .u-collapse-head[data-v-31fbc7f8] {
+        height: 42px;
+      }
+      /deep/ .u-collapse-title[data-v-31fbc7f8] {
+        margin-left: 15px;
+        font-size: 13px;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #333333;
+        // line-height: 42px;
+      }
+      /deep/ .u-collapse-body {
+        background-color: #fafafa;
+      }
+      .imgAndText {
+        width: 345px;
+        height: 63px;
+        margin: 0 auto;
+        padding-top: 12.5px;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+        .imgAndTittle {
+          height: 17px;
+          // margin-top: 17px;
+          .img {
+            float: left;
+            width: 15px;
+            height: 17px;
+            margin: 0 auto;
+            margin-left: 15px;
+            img {
+              width: 100%;
+            }
+          }
+          .title {
+            float: left;
+            margin-left: 12px;
+            height: 17px;
+            line-height: 17px;
+            font-size: 13px;
+            font-family: PingFang SC;
+            font-weight: 500;
+            color: #333333;
+          }
+        }
+        .text {
+          margin-top: 8px;
+          margin-left: 42px;
+          font-size: 12px;
+          font-family: PingFang SC;
+          font-weight: 400;
+          color: #999999;
+        }
+      }
+    }
+  }
 }
-#mse {
-  flex: auto;
-} */
 </style>
