@@ -34,7 +34,7 @@
       </div>
 
       <div class="detaileBox">
-        <u-collapse>
+        <u-collapse :accordion="false">
           <u-collapse-item title="课程案例">
             <div class="imgAndText">
               <div class="imgAndTittle">
@@ -42,6 +42,58 @@
                   <img src="../Img/courseImg/shipin.png" alt="" />
                 </div>
                 <div class="title">案例一：中国的财政政策</div>
+              </div>
+              <div class="text">需学习10分0秒，已学习5分30秒</div>
+            </div>
+
+             <div class="imgAndText">
+              <div class="imgAndTittle">
+                <div class="img">
+                  <img src="../Img/courseImg/shipin.png" alt="" />
+                </div>
+                <div class="title">案例二：灯塔的故事</div>
+              </div>
+              <div class="text">需学习10分0秒，已学习5分30秒</div>
+            </div>
+
+             <div class="imgAndText">
+              <div class="imgAndTittle">
+                <div class="img">
+                  <img src="../Img/courseImg/shipin.png" alt="" />
+                </div>
+                <div class="title">案例三：世界各国治理通货膨胀的良策</div>
+              </div>
+              <div class="text">需学习10分0秒，已学习5分30秒</div>
+            </div>
+          </u-collapse-item>
+
+            <u-collapse-item title="习题讲解">
+            <div class="imgAndText">
+              <div class="imgAndTittle">
+                <div class="img">
+                  <img src="../Img/courseImg/shipin.png" alt="" />
+                </div>
+                <div class="title">习题讲解一</div>
+              </div>
+              <div class="text">需学习10分0秒，已学习5分30秒</div>
+            </div>
+
+             <div class="imgAndText">
+              <div class="imgAndTittle">
+                <div class="img">
+                  <img src="../Img/courseImg/shipin.png" alt="" />
+                </div>
+                <div class="title">习题讲解二</div>
+              </div>
+              <div class="text">需学习10分0秒，已学习5分30秒</div>
+            </div>
+
+             <div class="imgAndText">
+              <div class="imgAndTittle">
+                <div class="img">
+                  <img src="../Img/courseImg/shipin.png" alt="" />
+                </div>
+                <div class="title">习题讲解三</div>
               </div>
               <div class="text">需学习10分0秒，已学习5分30秒</div>
             </div>
