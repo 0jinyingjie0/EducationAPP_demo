@@ -218,6 +218,37 @@ body {
   overflow: hidden;
 }
 .coursePlay {
+  .demo {
+    border: 1px solid #ccc;
+  }
+  /deep/ .video-js .vjs-big-play-button {
+    top: 65px;
+    left: 140px;
+  }
+  /deep/ .video-js .vjs-volume-panel {
+    display: none !important;
+  }
+  /deep/ .video-js .vjs-playback-rate {
+    display: none !important;
+  }
+  /deep/ .video-js .vjs-picture-in-picture-control {
+    display: none !important;
+  }
+  /deep/ .vjs-button > .vjs-icon-placeholder:before {
+    line-height: 1.2 !important;
+  }
+  /deep/ .vjs-button > .vjs-icon-placeholder:before {
+    color: #fff !important;
+  }
+  /deep/ .video-js .vjs-control {
+    border: none;
+    background: transparent;
+  }
+  /deep/ .video-js .vjs-control:focus {
+    border: none;
+    background: transparent;
+  }
+
   /deep/ .u-icon__icon[data-v-6e20bb40] {
     opacity: 0.6;
   }
