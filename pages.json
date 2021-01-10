@@ -30,7 +30,6 @@
 			}
 		},
 		{
-<<<<<<< HEAD
 			"path": "pages/component/info/info",
 			"style": {
 				"navigationBarTitleText": "题库练习"
@@ -61,8 +60,6 @@
 			}
 		},
 		{
-			"path": "pages/component/pages",
-=======
 			"path": "pages/courseModule/courseDiscussion",
 			"style": {
 				"navigationBarTitleText": "课程讨论",
@@ -102,7 +99,6 @@
 		},
 		{
 			"path": "pages/component/scoreInquiry",
->>>>>>> 5477ee4513e0228a7f7333ddb3bc5093deb78d42
 			"style": {
 				"navigationBarTitleText": "成绩查询"
 			}
