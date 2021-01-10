@@ -3,12 +3,12 @@
 		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
 	},
 	"pages": [
-		// {
-		// 	"path": "pages/index/index",
-		// 	"style": {
-		// 		"navigationBarTitleText": "首页"
-		// 	}
-		// },
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
 		{
 			"path": "pages/login/login",
 			"style": {
@@ -26,6 +26,36 @@
 			}
 		},
 		{
+			"path": "pages/component/info/info",
+			"style": {
+				"navigationBarTitleText": "题库练习"
+			}
+		},
+		{
+			"path": "pages/component/courseExam/courseExam",
+			"style": {
+				"navigationBarTitleText": "课程考试"
+			}
+		},
+		{
+			"path": "pages/component/faceAnswer/faceAnswer",
+			"style": {
+				"navigationBarTitleText": "面授答疑"
+			}
+		},
+		{
+			"path": "pages/component/writeInformation/writeInformation",
+			"style": {
+				"navigationBarTitleText": "填写信息"
+			}
+		},
+		{
+			"path": "pages/component/answerQuestion/answerQuestion",
+			"style": {
+				"navigationBarTitleText": "答题"
+			}
+		},
+		{
 			"path": "pages/component/pages",
 			"style": {
 				"navigationBarTitleText": "详情页1"
@@ -37,7 +67,43 @@
 				"navigationBarTitleText": "详情页2"
 			}
 		}
-],
+    ,{
+            "path" : "pages/component/info/info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/component/courseExam/courseExam",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/component/writeInformation/writeInformation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/component/answerQuestion/answerQuestion",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
