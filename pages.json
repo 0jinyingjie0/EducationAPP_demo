@@ -36,8 +36,81 @@
 			"style": {
 				"navigationBarTitleText": "详情页2"
 			}
+		},
+		{
+			"path": "pages/myProfile/index",    // 我的资料页面
+			"style": {
+				"navigationStyle": "custom"  //自定义头部导航栏
+			}
+		},
+		{
+			"path": "pages/write_information/write_information",    // 我的资料页面
+			"style": {
+				"navigationStyle": "custom"  //自定义头部导航栏
+			}
+		},
+		{
+			"path": "pages/my_message/index",    // 我的消息页面
+			"style": {
+				"navigationStyle": "custom" , //自定义头部导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path": "pages/my_set/index",    // 我的设置页面    
+			"style": {
+				"navigationStyle": "custom" , //自定义头部导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path": "pages/phone_number/index",    // 修改手机号码页面    
+			"style": {
+				"navigationStyle": "custom" , //自定义头部导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path": "pages/password/index",    // 修改密码页面    
+			"style": {
+				"navigationStyle": "custom" , //自定义头部导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path": "pages/apply/index",  //  报名页面
+			"style": {
+				"navigationBarTitleText": "报名",
+				// "navigationStyle": "报名"  //自定义头部导航栏
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/study/study",  //  报名页面
+			"style": {
+				"navigationStyle": "custom" , //自定义头部导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
 		}
-],
+        ,{
+            "path" : "pages/write_information/write_information",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/write_information/write_information",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
