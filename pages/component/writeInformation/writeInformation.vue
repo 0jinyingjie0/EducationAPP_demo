@@ -57,7 +57,7 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
 	  page {
 	          padding-top: 16px;
 	      }
