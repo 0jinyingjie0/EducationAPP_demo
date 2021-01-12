@@ -109,26 +109,26 @@
 			}
 		},
 		{
-			"path": "pages/myProfile/index", // 我的资料页面
+			"path": "pages/myset/myProfile/index", // 我的资料页面
 			"style": {
 				"navigationStyle": "custom" //自定义头部导航栏
 			}
 		},
 		{
-			"path": "pages/write_information/write_information", // 我的资料页面
+			"path": "pages/myset/write_information/write_information", // 我的资料页面
 			"style": {
 				"navigationStyle": "custom" //自定义头部导航栏
 			}
 		},
 		{
-			"path": "pages/my_message/index", // 我的消息页面
+			"path": "pages/myset/my_message/index", // 我的消息页面
 			"style": {
 				"navigationStyle": "custom", //自定义头部导航栏
 				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
 			}
 		},
 		{
-			"path": "pages/my_set/index", // 我的设置页面    
+			"path": "pages/myset/my_set/index", // 我的设置页面    
 			"style": {
 				"navigationStyle": "custom", //自定义头部导航栏
 				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
@@ -220,10 +220,10 @@
 				"selectedIconPath": "static/c1.png",
 				"text": "组件"
 			}, {
-				"pagePath": "pages/component/my",
+				"pagePath": "pages/my_set/index",
 				"iconPath": "static/api.png",
 				"selectedIconPath": "static/c1.png",
-				"text": "接口"
+				"text": "我的"
 			}
 		]
 	}
