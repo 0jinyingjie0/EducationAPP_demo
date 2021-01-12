@@ -79,100 +79,100 @@ page {
 }
 .scoreInquiry {
   /deep/ .u-scroll-box {
-    height: 49.5px !important;
+    height: 99upx !important;
   }
   /deep/ .u-tab-item[data-v-3b2b1a80] {
-    width: 86px !important;
-    height: 12.5px !important;
-    font-size: 13px !important;
+    width: 172upx !important;
+    height: 25upx !important;
+    font-size: 26upx !important;
     font-family: PingFang SC !important;
     font-weight: 500 !important;
     color: #333333 !important;
-    line-height: 11.5px !important;
-    margin-bottom: 14.5px !important;
-    margin-top: 17.5px !important;
+    line-height: 23upx !important;
+    margin-bottom: 29upx !important;
+    margin-top: 35upx !important;
   }
   /deep/ .u-tab-bar[data-v-3b2b1a80] {
-    width: 25px !important;
-    height: 4.5px !important;
-    border-radius: 2px !important;
+    width: 50upx !important;
+    height: 18upx !important;
+    border-radius: 8upx !important;
     background-color: #43b4ae !important;
     // transform: translateY(0%) !important;
   }
   .hizden {
-    height: 1px;
+    height: 2upx;
     width: 100%;
     background-color: #000;
     opacity: 0.1;
-    margin-top: -5px;
+    margin-top: -10upx;
   }
   .cardBox {
-    width: 355px;
-    height: 165px;
+    width: 710upx;
+    height: 330upx;
     background: #ffffff;
-    border-radius: 5px;
-    margin: 15px auto;
+    border-radius: 10upx;
+    margin: 30upx auto;
     box-shadow: rgba($color: #000000, $alpha: 1);
     // border: 1px solid pink;
     .titleText {
       text-align: center;
       width: 100%;
-      height: 40px;
-      font-size: 13px;
+      height: 80upx;
+      font-size: 26upx;
       font-family: PingFang SC;
       font-weight: 500;
       color: #333333;
-      line-height: 40px;
+      line-height: 80upx;
     }
     .titleSolid {
-      height: 1px;
+      height: 2upx;
       background: #000000;
       opacity: 0.1;
-      border-radius: 5px;
-      margin-bottom: 14px;
+      border-radius: 10upx;
+      margin-bottom: 28upx;
     }
     .contentBox {
       display: flex;
       justify-content: space-around;
       div {
         width: 33.3%;
-        height: 25px;
+        height: 50upx;
         text-align: center;
-        font-size: 14.5px;
+        font-size: 29upx;
         font-family: PingFang SC;
         font-weight: 500;
         color: #999999;
-        line-height: 25px;
+        line-height: 50upx;
       }
       .left,
       .mid {
-        border-right: 1px solid rgba($color: #000000, $alpha: 0.1);
+        border-right: 2upx solid rgba($color: #000000, $alpha: 0.1);
       }
     }
     .paymentBox {
       display: flex;
       justify-content: space-around;
-      margin-top: 9.5px;
-      margin-bottom: 22.5px;
+      margin-top: 19upx;
+      margin-bottom: 45upx;
       div {
         width: 33.3%;
-        height: 13.5px;
+        height: 27upx;
         text-align: center;
-        font-size: 13.5px;
+        font-size: 27upx;
         font-family: PingFang SC;
         font-weight: 500;
         color: #e74141;
-        line-height: 13.5px;
+        line-height: 27upx;
       }
     }
     .totalPoints {
       text-align: center;
       width: 100%;
-      height: 40px;
-      line-height: 40px;
+      height: 80upx;
+      line-height: 80upx;
       background: #43b4ae;
-      border-radius: 5px;
-      font-size: 14.5px;
+      border-radius: 10upx;
+      font-size: 29upx;
       font-family: PingFang SC;
       font-weight: 500;
       color: #ffffff;

@@ -85,38 +85,38 @@ uni-page-wrapper {
     // border: 1px solid pink;
     .messageBox {
       width: 100%;
-      height: 90px;
+      height: 180upx;
       // border-bottom: 1px solid #000;
       background-color: #fff;
-      margin-bottom: 1px;
+      margin-bottom: 2upx;
       .imgAndTitle {
-        margin-top: 10px;
-        height: 48.5px;
+        margin-top: 20upx;
+        height: 97upx;
         display: flex;
         justify-content: left;
         .img {
-          width: 40px;
-          height: 48.5px;
-          margin-left: 16px;
+          width: 80upx;
+          height: 97upx;
+          margin-left: 32upx;
           img {
             width: 100%;
           }
         }
         .nameAndTime {
-          margin-left: 12px;
+          margin-left: 24upx;
           div {
-            font-size: 13px;
+            font-size: 26upx;
             font-family: PingFang SC;
             font-weight: 500;
             color: #999999;
-            line-height: 13px;
-            margin-bottom: 7px;
+            line-height: 26upx;
+            margin-bottom: 14upx;
           }
         }
       }
       .title {
-        margin: 0 14px;
-        font-size: 14px;
+        margin: 0 28upx;
+        font-size: 28upx;
         font-family: PingFang SC;
         font-weight: 500;
         color: #999999;
@@ -130,32 +130,32 @@ uni-page-wrapper {
     }
   }
   .messageNo {
-    margin: 9.5px 0px 11px 15px;
-    font-size: 13px;
+    margin: 19upx 0px 22upx 30upx;
+    font-size: 26upx;
     font-family: PingFang SC;
     font-weight: 500;
     color: #666666;
   }
   .detaileAnswer {
     width: 100%;
-    height: 90px;
+    height: 180upx;
     background-color: #fff;
-    margin-bottom: 1px;
+    margin-bottom: 2upx;
     .img,
     .nameAndTimeAndMessage {
       float: left;
     }
     .img {
-      width: 40px;
-      height: 48.5px;
-      margin-top: 10px;
-      margin-left: 16px;
+      width: 80upx;
+      height: 97upx;
+      margin-top: 20upx;
+      margin-left: 32upx;
       img {
         width: 100%;
       }
     }
     .nameAndTimeAndMessage {
-      margin-left: 7.5px;
+      margin-left: 15px;
       .name,
       .time,
       .message {
@@ -165,28 +165,28 @@ uni-page-wrapper {
       }
       .name {
         // margin-top: 14px;
-        margin-top: 10px;
-        margin-left: 3px;
-        font-size: 13px;
+        margin-top: 20upx;
+        margin-left: 6upx;
+        font-size: 26upx;
       }
       .time {
-        margin-top: 7.5px;
-        margin-left: 2px;
-        font-size: 13px;
+        margin-top: 15upx;
+        margin-left: 4upx;
+        font-size: 26upx;
       }
       .message {
-        margin-top: 14.5px;
-        font-size: 14px;
+        margin-top: 29upx;
+        font-size: 28upx;
       }
     }
   }
   .footer {
     position: absolute;
-    bottom: 10px;
+    bottom: 20upx;
     display: flex;
     justify-content: left;
     width: 100%;
-    height: 65.5px;
+    height: 131upx;
     background-color: #e7e7e7;
     /deep/ .uni-input-wrapper {
       background-color: #fff;
@@ -195,37 +195,37 @@ uni-page-wrapper {
       padding: 0px !important;
       height: 100%;
       /deep/ .u-input__input[data-v-460c1d26] {
-        height: 33px !important;
-        min-height: 33px !important;
+        height: 66upx !important;
+        min-height: 66upx !important;
       }
       /deep/ .uni-input-wrapper {
-        height: 33px;
+        height: 66upx;
         /deep/ .uni-input-placeholder {
-          margin-left: 10px;
-          font-size: 13px;
+          margin-left: 20upx;
+          font-size: 26upx;
           font-family: PingFang SC;
           font-weight: 500;
           color: #b9b9b9;
         }
       }
       /deep/ .uni-input-input {
-        height: 33px;
+        height: 66upx;
         
       }
     }
     .search {
-      width: 279.5px;
-      height: 33px;
-      margin-top: 16px;
-      margin-left: 16px;
+      width: 560upx;
+      height: 66upx;
+      margin-top: 32upx;
+      margin-left: 32upx;
     }
     .send {
-      width: 60px;
-      height: 33px;
-      margin-top: 16px;
-      margin-left: 5px;
+      width: 120upx;
+      height: 66upx;
+      margin-top: 32upx;
+      margin-left: 10upx;
       background: #43b4ae;
-      line-height: 33px;
+      line-height: 66upx;
       text-align: center;
       color: #fff;
     }

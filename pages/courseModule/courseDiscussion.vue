@@ -60,43 +60,43 @@ page {
   .slot-wrap {
     display: flex;
     align-items: center;
-    padding-right: 15px;
-    font-size: 14px;
+    padding-right: 30upx;
+    font-size: 28upx;
     font-family: PingFang SC;
     font-weight: 500;
     color: #666666;
     img {
-      width: 24px;
-      height: 20px;
+      width: 48upx;
+      height: 40upx;
     }
   }
   .contentBox {
     .messageBox {
       width: 100%;
-      height: 90px;
+      height: 180upx;
       // border-bottom: 1px solid #000;
       background-color: #fff;
-      margin-bottom: 1px;
+      margin-bottom: 2px;
       .imgAndTitle {
-        margin-top: 10px;
-        height: 48.5px;
+        margin-top: 20upx;
+        height: 97upx;
         display: flex;
         justify-content: left;
         .img {
-          width: 40px;
-          height: 48.5px;
-          margin-left: 16px;
+          width: 80upx;
+          height: 97upx;
+          margin-left: 32upx;
           img {
             width: 100%;
           }
         }
         .title {
-          width: 280px;
-          margin-left: 10.5px;
-          margin-top: 13.5px;
-          margin-right: 28px;
+          width: 560upx;
+          margin-left: 21upx;
+          margin-top: 27upx;
+          margin-right: 56upx;
           box-sizing: border-box;
-          font-size: 14px;
+          font-size: 28upx;
           font-family: PingFang SC;
           font-weight: 500;
           color: #999999;
@@ -110,19 +110,19 @@ page {
       }
       .nameAndTime {
         width: 100%;
-        margin-top: 6px;
+        margin-top: 12upx;
         .name {
           float: left;
-          margin-left: 15px;
-          font-size: 14px;
+          margin-left: 30upx;
+          font-size: 28upx;
           font-family: PingFang SC;
           font-weight: 500;
           color: #999999;
         }
         .time {
           float: right;
-          margin-right: 15px;
-          font-size: 14px;
+          margin-right: 30upx;
+          font-size: 28upx;
           font-family: PingFang SC;
           font-weight: 500;
           color: #999999;

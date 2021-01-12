@@ -219,11 +219,11 @@ body {
 }
 .coursePlay {
   .demo {
-    border: 1px solid #ccc;
+    border: 2upx solid #ccc;
   }
   /deep/ .video-js .vjs-big-play-button {
-    top: 65px;
-    left: 140px;
+    top: 135upx;
+    left: 280upx;
   }
   /deep/ .video-js .vjs-volume-panel {
     display: none !important;
@@ -255,63 +255,63 @@ body {
   .centerBox {
     // background-color: pink;
     .navBox {
-      width: 345px;
-      height: 41px;
+      width: 690upx;
+      height: 82upx;
       margin: 0 auto;
-      border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+      border-bottom: 2upx solid rgba($color: #000000, $alpha: 0.1);
       .left {
-        height: 41px;
+        height: 82upx;
         float: left;
         .section {
-          width: 26px;
-          height: 13px;
-          font-size: 13px;
+          width: 52upx;
+          height: 26upx;
+          font-size: 26upx;
           font-family: PingFang SC;
           font-weight: bold;
           color: #333333;
-          margin-top: 21px;
+          margin-top: 42upx;
         }
         .bottomLine {
-          width: 15px;
-          height: 3px;
+          width: 30upx;
+          height: 6upx;
           background: #43b4ae;
           margin: 0 auto;
-          margin: 5px;
+          margin: 10upx;
         }
       }
       .mid {
-        height: 41px;
-        line-height: 41px;
-        line-break: 41px;
+        height: 82upx;
+        line-height: 82upx;
+        line-break: 82upx;
         float: right;
-        font-size: 12px;
+        font-size: 24upx;
         font-family: PingFang SC;
         font-weight: 400;
         color: #999999;
-        margin-right: 10px;
+        margin-right: 20upx;
       }
       .right {
         float: right;
-        width: 61px;
-        height: 19px;
-        border: 1px solid #43b4ae;
-        border-radius: 5px;
+        width: 122upx;
+        height: 39upx;
+        border: 2upx solid #43b4ae;
+        border-radius: 10upx;
         text-align: center;
-        font-size: 12px;
+        font-size: 24upx;
         font-family: PingFang SC;
         font-weight: 400;
         color: #43b4ae;
-        line-height: 19px;
-        margin-top: 11px;
+        line-height: 38upx;
+        margin-top: 22upx;
       }
     }
     .detaileBox {
       /deep/ .u-collapse-head[data-v-31fbc7f8] {
-        height: 42px;
+        height: 84upx;
       }
       /deep/ .u-collapse-title[data-v-31fbc7f8] {
-        margin-left: 15px;
-        font-size: 13px;
+        margin-left: 30upx;
+        font-size: 26upx;
         font-family: PingFang SC;
         font-weight: 500;
         color: #333333;
@@ -321,40 +321,40 @@ body {
         background-color: #fafafa;
       }
       .imgAndText {
-        width: 345px;
-        height: 63px;
+        width: 690upx;
+        height: 126upx;
         margin: 0 auto;
-        padding-top: 12.5px;
+        padding-top: 25upx;
         box-sizing: border-box;
-        border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+        border-bottom: 2upx solid rgba($color: #000000, $alpha: 0.1);
         .imgAndTittle {
-          height: 17px;
+          height: 34upx;
           // margin-top: 17px;
           .img {
             float: left;
-            width: 15px;
-            height: 17px;
+            width: 30upx;
+            height: 34upx;
             margin: 0 auto;
-            margin-left: 15px;
+            margin-left: 30upx;
             img {
               width: 100%;
             }
           }
           .title {
             float: left;
-            margin-left: 12px;
-            height: 17px;
-            line-height: 17px;
-            font-size: 13px;
+            margin-left: 24upx;
+            height: 34upx;
+            line-height: 34upx;
+            font-size: 36upx;
             font-family: PingFang SC;
             font-weight: 500;
             color: #333333;
           }
         }
         .text {
-          margin-top: 8px;
-          margin-left: 42px;
-          font-size: 12px;
+          margin-top: 16upx;
+          margin-left: 84upx;
+          font-size: 24upx;
           font-family: PingFang SC;
           font-weight: 400;
           color: #999999;

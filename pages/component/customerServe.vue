@@ -46,29 +46,29 @@ page {
 }
 .customerServe {
   .navTitle {
-    width: 130px;
-    height: 25px;
-    line-height: 25px;
+    width: 260upx;
+    height: 50upx;
+    line-height: 50upx;
     text-align: center;
-    margin: 15px auto;
+    margin: 30upx auto;
     background: #e0e0e0;
-    border-radius: 2px;
-    font-size: 12px;
+    border-radius: 4upx;
+    font-size: 24upx;
     font-family: Helvetica Neue LT Pro;
     font-weight: normal;
     color: #ffffff;
   }
   .imgAndMessage {
     width: 100%;
-    margin-bottom: 18px;
+    margin-bottom: 36upx;
     .left {
-      min-height: 50px;
+      min-height: 100upx;
       overflow: hidden;
       .imgLeft {
         float: left;
-        width: 50px;
-        height: 50px;
-        margin-left: 15px;
+        width: 100upx;
+        height: 100upx;
+        margin-left: 30upx;
         img {
           width: 100%;
         }
@@ -76,45 +76,45 @@ page {
       .messageLeft {
         float: left;
         position: relative;
-        width: 230px;
-        min-height: 37px;
-        margin-left: 12.5px;
-        margin-top: 5px;
-        border: 2px solid #e0e0e0;
+        width: 460upx;
+        min-height: 74upx;
+        margin-left: 25upx;
+        margin-top: 10upx;
+        border: 4upx solid #e0e0e0;
         box-sizing: border-box;
-        padding: 13px 12px;
-        font-size: 13px;
+        padding: 26upx 24upx;
+        font-size: 26upx;
         font-family: PingFang SC;
         font-weight: 500;
-        line-height: 18.5px;
+        line-height: 37upx;
         color: #333333;
-        border-radius: 5px;
+        border-radius: 10upx;
       }
       .messageLeft:before,
       .messageLeft:after {
         position: absolute;
         content: "";
-        border: 10px solid;
+        border: 20upx solid;
       }
       .messageLeft:before {
-        left: -20px;
-        top: 10px;
+        left: -40upx;
+        top: 20upx;
         border-color: transparent #e0e0e0 transparent transparent;
       }
       .messageLeft:after {
         border-color: transparent #fff transparent transparent;
-        left: -18px;
-        top: 10px;
+        left: -36upx;
+        top: 20upx;
       }
     }
     .right {
       overflow: hidden;
-      min-height: 50px;
+      min-height: 100upx;
       .imgRight {
-        width: 50px;
-        height: 50px;
+        width: 100upx;
+        height: 100upx;
         float: right;
-        margin-right: 15px;
+        margin-right: 30upx;
         img {
           width: 100%;
           
@@ -123,35 +123,35 @@ page {
       .messageRight {
         float: right;
         position: relative;
-        width: 230px;
-        min-height: 37px;
-        margin-right: 12.5px;
-        margin-top: 5px;
-        border: 2px solid #e0e0e0;
+        width: 460upx;
+        min-height: 74upx;
+        margin-right: 25upx;
+        margin-top: 10upx;
+        border: 4upx solid #e0e0e0;
         box-sizing: border-box;
-        padding: 13px 12px;
-        font-size: 13px;
+        padding: 26upx 24upx;
+        font-size: 26upx;
         font-family: PingFang SC;
         font-weight: 500;
-        line-height: 18.5px;
+        line-height: 37upx;
         color: #333333;
-         border-radius: 5px;
+         border-radius: 10upx;
       }
       .messageRight:before,
       .messageRight:after {
         position: absolute;
         content: "";
-        border: 10px solid;
+        border: 20upx solid;
       }
       .messageRight:before {
-        right: -20px;
-        top: 10px;
+        right: -40upx;
+        top: 20upx;
         border-color: transparent transparent transparent #e0e0e0;
       }
       .messageRight:after {
         border-color: transparent transparent transparent #fff;
-        right: -18px;
-        top: 10px;
+        right: -36upx;
+        top: 20upx;
       }
     }
   }

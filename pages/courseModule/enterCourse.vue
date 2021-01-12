@@ -253,24 +253,24 @@ page {
 
 .enterCourse {
   background-color: #fff;
-  width: 355px;
-  margin: 10px auto;
+  width: 710upx;
+  margin: 20upx auto;
   .gradeBox {
     width: 100%;
-    height: 175px;
+    height: 350upx;
     // border: 1px solid pink;
-    padding-top: 28px;
+    padding-top: 56upx;
     .number {
       width: 100%;
-      height: 70px;
+      height: 140upx;
       // background-color: #ccc;
       // margin-top: 28px;
       display: flex;
       justify-content: space-around;
       div {
-        width: 70px;
-        height: 70px;
-        line-height: 70px;
+        width: 140upx;
+        height: 140upx;
+        line-height: 140upx;
         text-align: center;
         border-radius: 50%;
         // background-color: rgb(17, 174, 236);
@@ -279,11 +279,11 @@ page {
           fill: #fff;
         }
         /deep/ .van-circle__text {
-          width: 32px;
+          width: 64upx;
           position: absolute;
-          left: 19px;
+          left: 38upx;
           top: 0px;
-          font-size: 14px;
+          font-size: 28upx;
           font-family: PingFang SC;
           font-weight: 500;
           color: #666666;
@@ -293,23 +293,23 @@ page {
     }
     .title {
       width: 100%;
-      height: 50px;
+      height: 100upx;
       background: #43b4ae;
-      border-radius: 5px;
-      margin-top: 27px;
+      border-radius: 10upx;
+      margin-top: 54upx;
       display: flex;
       justify-content: space-around;
       div {
         width: 33.3%;
         text-align: center;
-        height: 25px;
-        font-size: 14px;
+        height: 50upx;
+        font-size: 28upx;
         font-family: PingFang SC;
         font-weight: 500;
-        margin-top: 12.5px;
+        margin-top: 25upx;
         color: #ffffff;
-        line-height: 25px;
-        border-right: 2px solid rgba($color: #fff, $alpha: 0.6);
+        line-height: 50upx;
+        border-right: 4upx solid rgba($color: #fff, $alpha: 0.6);
       }
       .last {
         border-right: none;
@@ -318,52 +318,52 @@ page {
   }
   .contentBox {
     width: 100%;
-    height: 99px;
-    margin-top: 10px;
+    height: 198upx;
+    margin-top: 20upx;
     // border: 1px solid pink;
     .detaileBox {
       width: 100%;
       .topBox {
         width: 100%;
-        height: 17px;
-        margin-top: 20px;
+        height: 34upx;
+        margin-top: 40upx;
         .icon {
-          width: 15px;
-          height: 17px;
+          width: 30upx;
+          height: 34upx;
           float: left;
-          margin-left: 16px;
+          margin-left: 32upx;
           img {
             width: 100%;
           }
         }
         .title {
           float: left;
-          height: 17px;
-          margin-left: 7px;
-          font-size: 13px;
+          height: 34upx;
+          margin-left: 14upx;
+          font-size: 26upx;
           font-family: PingFang SC;
           font-weight: 500;
           color: #333333;
-          line-height: 17px;
+          line-height: 34upx;
         }
         .message {
-          height: 17px;
+          height: 34upx;
           float: right;
-          font-size: 13px;
+          font-size: 26upx;
           font-family: PingFang SC;
           font-weight: 500;
           color: #e92222;
-          line-height: 17px;
-          margin-right: 12px;
+          line-height: 34upx;
+          margin-right: 24upx;
         }
         .color {
           color: #999 !important;
         }
         .right {
           float: right;
-          width: 6.5px;
-          height: 12px;
-          margin-right: 15px;
+          width: 13upx;
+          height: 24upx;
+          margin-right: 30upx;
           img {
             width: 100%;
           }
@@ -371,36 +371,36 @@ page {
       }
       .progress {
         width: 100%;
-        height: 5px;
-        margin-top: 15px;
-        margin-bottom: 15px;
+        height: 10upx;
+        margin-top: 30upx;
+        margin-bottom: 30upx;
         // padding: 0 15px;
         box-sizing: border-box;
         position: relative;
         /deep/ .u-progress[data-v-0fa21744] {
           position: absolute;
           width: 92%;
-          margin-left: 15px;
-          height: 5px !important;
+          margin-left: 30upx;
+          height: 10upx !important;
           /deep/ .u-active[data-v-0fa21744] {
             background: #44b4ae !important;
           }
         }
       }
       .footerMessage {
-        margin: 0 15px;
-        font-size: 12px;
+        margin: 0 30upx;
+        font-size: 24upx;
         font-family: PingFang SC;
         font-weight: 400;
         color: #999999;
       }
       .margin {
-        margin-top: 15px !important;
+        margin-top: 30upx !important;
       }
       .foot {
-        width: 345px;
-        height: 1px;
-        margin: 11px auto 0px;
+        width: 690upx;
+        height: 2upx;
+        margin: 22upx auto 0px;
         background-color: rgba($color: #000, $alpha: 0.1);
       }
     }

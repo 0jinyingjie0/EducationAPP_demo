@@ -47,8 +47,7 @@
             />
           </div>
 
-          <u-button class="login" @click="toLogin">登录</u-button>
-
+          <u-button class="login" @click="toLogin">注册</u-button>
           <div class="registerContainer">
             <u-checkbox-group>
               <u-checkbox v-model="rememberPassword" active-color="#43B4AE"
@@ -94,101 +93,101 @@ export default {
 .body {
   width: 100%;
   img {
-    width: 5rem;
+    width: 750upx;
   }
   .cardBox {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: -84px;
+    margin-top: -169upx;
     .card {
-      width: 313.2975px;
-      height: 383.5px;
+      width: 626upx;
+      height: 766upx;
       background: #ffffff;
-      box-shadow: 0rem 0.1467rem 0.4933rem 0.04rem rgba(67, 180, 174, 0.09);
-      border-radius: 0.1333rem;
+      box-shadow: 0px 11upx 37upx 3upx rgba(67, 180, 174, 0.09);
+      border-radius: 20upx;
       box-sizing: border-box;
       .cardTittle {
-        margin: 39.9px 125.1px 39px 125.7px;
-        width: 0.8333rem;
-        height: 0.1867rem;
-        font-size: 0.2rem;
+        margin: 80upx 251upx 78upx 251upx;
+        width: 125upx;
+        height: 28upx;
+        font-size: 30upx;
         font-family: PingFang SC;
         font-weight: bold;
         color: #26c2b5;
-        line-height: 0.1533rem;
+        line-height: 23upx;
       }
       .userName,
       .userPass {
-        width: 240px;
-        height: 36px;
+        width: 480upx;
+        height: 72upx;
         margin: 0 auto;
         .u-input {
-          padding-left: 51px !important;
+          padding-left: 102upx !important;
           .uni-input-placeholder {
-            width: 105px;
-            height: 12px;
-            font-size: 12px;
+            width: 210upx;
+            height: 24upx;
+            font-size: 24upx;
             font-family: PingFang SC;
             font-weight: 500;
             color: #999999;
-            line-height: 12px;
+            line-height: 24upx;
           }
         }
       }
       .userName {
         position: relative;
         img {
-          width: 15px;
-          height: 17.5px;
+          width: 30upx;
+          height: 35upx;
           position: absolute;
-          top: 8.5px;
-          left: 15px;
+          top: 17upx;
+          left: 30upx;
         }
       }
       .userPass {
-        margin-top: 23px;
+        margin-top: 46upx;
         position: relative;
         img {
-          width: 10px;
-          height: 16px;
+          width: 20upx;
+          height: 32upx;
           position: absolute;
-          top: 10px;
-          left: 17.5px;
+          top: 20upx;
+          left: 35upx;
         }
       }
 
       .login {
-        margin: 39px auto 10.5px;
-        width: 240px;
-        height: 36px;
+        margin: 78upx auto 21upx;
+        width: 480upx;
+        height: 72upx;
         background: #43b4ae;
-        border-radius: 5px;
+        border-radius: 10px;
       }
       .registerContainer {
         // width: 79.5px;
-        width: 130px;
-        height: 12px;
-        font-size: 12px;
+        width: 260upx;
+        height: 24upx;
+        font-size: 24upx;
         font-family: PingFang SC;
         font-weight: 400;
         color: #999999;
-        line-height: 12px;
+        line-height: 24upx;
         margin: 0 auto;
         /deep/ .u-checkbox__icon-wrap--square[data-v-54acf820] {
-          width: 10px !important;
-          height: 10px !important;
+          width: 20upx !important;
+          height: 20upx !important;
           border-radius: 0px;
         }
         /deep/ .u-checkbox__label[data-v-54acf820] {
           //   width: 73.5px;
-          width: 97px;
-          height: 12px;
-          font-size: 12px;
+          width: 192upx;
+          height: 24upx;
+          font-size: 24upx;
           font-family: PingFang SC;
           font-weight: 400;
           color: #999999;
-          line-height: 12px;
+          line-height: 24upx;
         }
         .register {
           color: #43b4ae;

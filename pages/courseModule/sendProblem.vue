@@ -49,23 +49,23 @@ page {
   .slot-wrap {
     display: flex;
     align-items: center;
-    padding-right: 15px;
-    font-size: 14px;
+    padding-right: 30upx;
+    font-size: 28upx;
     font-family: PingFang SC;
     font-weight: 400;
     color: #666666;
   }
   .contentBox {
-    width: 345px;
-    height: 142px;
+    width: 690upx;
+    height: 284upx;
     background: #ffffff;
     // border: 1px solid #ccc;
-    margin: 9.5px auto 0;
+    margin: 19upx auto 0;
   }
   .uni-textarea-placeholder {
-    margin-left: 10px;
-    margin-top: 9px;
-    font-size: 15px;
+    margin-left: 20upx;
+    margin-top: 18upx;
+    font-size: 30upx;
     font-family: PingFang SC;
     font-weight: 500;
     color: #a8a8a8;
