@@ -26,17 +26,17 @@
 				</u-form-item>
 				<u-form-item label="手机号码" :border-bottom="false" >
 					<u-input input-align="right"  :disabled="true" v-model="form.info.number"  />
-					<u-icon name="arrow-right" color="#999999" size="28"></u-icon>
+					<u-icon name="arrow-right" color="#999999" size="28" @click="toFixPhoneNo"></u-icon>
 				</u-form-item>
 				<u-form-item label="联系地址" :border-bottom="false" >
 					<u-input input-align="right"  :disabled="true" v-model="form.info.location"   />
 					<u-icon name="arrow-right" color="#999999" size="28"></u-icon>
 				</u-form-item>
-				<u-form-item label="账号密码修改" :border-bottom="false">
+				<u-form-item label="账号密码修改" :border-bottom="false" >
 					<u-input  input-align="right"  :disabled="true" v-model="form.info.number_password" /> 
 					<!-- <u-select confirm=""  v-model="show" :list="list"></u-select> -->
 					<!-- <u-icon  @click="show = true" name="arrow-right" color="#999999" size="28"></u-icon> -->
-					<u-icon  name="arrow-right" color="#999999" size="28"></u-icon>
+					<u-icon  name="arrow-right" color="#999999" size="28" @click="toFixPassword"></u-icon>
 				</u-form-item>
 				<u-form-item label="我的二维码"  >
 					<u-input input-align="right"  :disabled="true" v-model="form.info.code"  />
@@ -160,7 +160,17 @@
 			}
 		},
 		methods: {
-
+			toFixPhoneNo(){
+				uni.navigateTo({
+					url:"../../phone_number/index"
+				})
+			},
+			toFixPassword(){
+				console.log("#####");
+				uni.navigateTo({
+					url:"../../password/index"
+				})
+			}
 		}
 	}
 </script>

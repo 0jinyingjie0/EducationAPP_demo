@@ -17,12 +17,12 @@
 			<u-line class="line" color="#000000" style="opacity: 0.2"/>
 			
 			<view class="in_mend">
-				<view class="item_lesson">
+				<view class="item_lesson" @click="toCourseDetaile">
 					<span>
 						<image class="book_picture" src="../../static/book.png" mode=""></image>
 					</span>
 					<span>
-						<view class="book">
+						<view class="book" >
 							<view class="title_img">
 								<view class="book_title">{{book.title}}</view>
 								<view class="book_status">
@@ -125,6 +125,12 @@
 			change_term(){
 				this.show = true;
 				console.log("222")
+			},
+			toCourseDetaile(){
+				console.log("####");
+				uni.navigateTo({
+					url:"../courseModule/enterCourse"
+				})
 			}
 		}
 	}

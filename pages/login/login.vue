@@ -92,6 +92,11 @@ export default {
   },
   methods: {
     toLogin() {
+      console.log("tohome");
+       uni.switchTab({
+        url: "../index/index",
+      });
+
       if (this.userName == "") {
         this.$refs.uToast.show({
           title: "用户名不能为空",
@@ -106,9 +111,7 @@ export default {
         });
         return;
       }
-       uni.navigateTo({
-        url: "../login/register",
-      });
+      
       // this.loading = true;
       //   this.$request({
       //     url: this.loginURL + "/login",

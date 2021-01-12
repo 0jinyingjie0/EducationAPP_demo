@@ -58,7 +58,7 @@
           </div>
           <div class="title">课程点播</div>
 
-          <div class="right" @click="toDetaile()">
+          <div class="right" @click="toCoursePlay">
             <img src="../Img/enterCourse/xiayibu.png" alt="" />
           </div>
           <div class="message">20/50分</div>
@@ -83,7 +83,7 @@
           </div>
           <div class="title">课程作业</div>
 
-          <div class="right" @click="toDetaile()">
+          <div class="right" @click="toCourseWork">
             <img src="../Img/enterCourse/xiayibu.png" alt="" />
           </div>
           <div class="message color">暂未完成</div>
@@ -106,7 +106,7 @@
           </div>
           <div class="title">课程讨论</div>
 
-          <div class="right" @click="toDetaile()">
+          <div class="right" @click="toCourseDis">
             <img src="../Img/enterCourse/xiayibu.png" alt="" />
           </div>
           <div class="message color"></div>
@@ -129,7 +129,7 @@
           </div>
           <div class="title">面授答疑</div>
 
-          <div class="right" @click="toDetaile()">
+          <div class="right" @click="toFaceAnswer">
             <img src="../Img/enterCourse/xiayibu.png" alt="" />
           </div>
           <div class="message color"></div>
@@ -152,7 +152,7 @@
           </div>
           <div class="title">课程资料</div>
 
-          <div class="right" @click="toDetaile()">
+          <div class="right" @click="toMaterial">
             <img src="../Img/enterCourse/xiayibu.png" alt="" />
           </div>
           <div class="message color">暂未查询</div>
@@ -175,7 +175,7 @@
           </div>
           <div class="title">题库练习</div>
 
-          <div class="right" @click="toDetaile()">
+          <div class="right" @click="toInfo">
             <img src="../Img/enterCourse/xiayibu.png" alt="" />
           </div>
           <div class="message color">非考试，仅为练习</div>
@@ -198,7 +198,7 @@
           </div>
           <div class="title">课程考试</div>
 
-          <div class="right" @click="toDetaile()">
+          <div class="right" @click="toExam">
             <img src="../Img/enterCourse/xiayibu.png" alt="" />
           </div>
           <div class="message color"></div>
@@ -242,6 +242,44 @@ export default {
   mounted() {},
   methods: {
     toDetaile() {},
+    toCoursePlay(){
+    
+      uni.navigateTo({
+        url:"../courseModule/coursePlay"
+      })
+    },
+    toCourseWork(){
+       
+      uni.navigateTo({
+        url:"../courseModule/coursework"
+      })
+    },
+    toCourseDis(){
+      uni.navigateTo({
+        url:"../courseModule/courseDiscussion"
+      })
+    },
+    toFaceAnswer(){
+      uni.navigateTo({
+        url:"../component/faceAnswer/faceAnswer"
+      })
+    },
+    toMaterial(){
+       console.log("$$$");
+      uni.navigateTo({
+        url:"../courseModule/course_material"
+      })
+    },
+    toInfo(){
+       uni.navigateTo({
+        url:"../component/info/info"
+      })
+    },
+    toExam(){
+      uni.navigateTo({
+        url:"../component/courseExam/courseExam"
+      })
+    }
   },
 };
 </script>

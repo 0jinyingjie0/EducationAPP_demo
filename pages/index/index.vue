@@ -10,19 +10,19 @@
 		</view>
 		<view class="">
 			<p class="word">快速通道</p>
-			   <view class="little_box">
+			   <view class="little_box" @click="toMyBacklog">
 				   <image src="../../static/daiban@2x.png" mode="" style="width:33.5px;height:30px;margin-left:17.5px;margin-top:10.5px;float:left"></image>
 				   <p style="float:left;margin-top: 12px;margin-left:12px;font-size: 14px;">我的待办</p>
 			   </view>
-			   <view class="little_box1">
+			   <view class="little_box1" @click="toMyStudy">
 				   <image src="../../static/xuexi@2x(1).png" mode="" style="width:33.5px;height:30px;margin-left:17.5px;margin-top:10.5px;float:left"></image>
 				   <p style="float:left;margin-top: 12px;margin-left:12px;font-size: 14px;">我的学习</p>
 			   </view>
-			   <view class="little_box">
+			   <view class="little_box" @click="toMyApply">
 			   		<image src="../../static/baoming@2x.png" mode="" style="width:33.5px;height:30px;margin-left:17.5px;margin-top:10.5px;float:left"></image>
 			   	    <p style="float:left;margin-top: 12px;margin-left:12px;font-size: 14px;">我要报名</p>
 			   </view>
-			   <view class="little_box1">
+			   <view class="little_box1" @click="toMyCustom">
 			   		<image src="../../static/zixun@2x.png" mode="" style="width:33.5px;height:30px;margin-left:17.5px;margin-top:10.5px;float:left"></image>
 			   		<p style="float:left;margin-top: 12px;margin-left:12px;font-size: 14px;">我要咨询</p>
 			   </view>
@@ -64,7 +64,26 @@
 			}
 		},
 		methods: {
-
+			toMyStudy(){
+				uni.navigateTo({
+					url:"../study/study"
+				})
+			},
+			toMyApply(){
+				uni.navigateTo({
+					url:"../apply/index"
+				})
+			},
+			toMyCustom(){
+				uni.navigateTo({
+					url:"../component/customerServe"
+				})
+			},
+			toMyBacklog(){
+				uni.navigateTo({
+					url:"../myset/backlog"
+				})
+			}
 		}
 	}
 </script>

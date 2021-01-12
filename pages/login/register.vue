@@ -84,7 +84,11 @@ export default {
   },
   methods: {
     toLogin() {},
-    toSearch() {},
+    toSearch() {
+      uni.navigateTo({
+        url: "../login/login",
+      });
+    },
   },
 };
 </script>
