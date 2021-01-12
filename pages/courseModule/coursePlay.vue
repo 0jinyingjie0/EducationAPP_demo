@@ -222,11 +222,17 @@ body {
     border: 2upx solid #ccc;
   }
   /deep/ .video-js .vjs-big-play-button {
-    top: 135upx;
-    left: 280upx;
+    top: 45%;
+    left: 45%;
+  }
+  /deep/ .video-js .vjs-control-bar {
+    height: 6em !important;
   }
   /deep/ .video-js .vjs-volume-panel {
     display: none !important;
+  }
+  /deep/ .video-js .vjs-play-progress:before {
+    top: -1em;
   }
   /deep/ .video-js .vjs-playback-rate {
     display: none !important;
@@ -235,7 +241,7 @@ body {
     display: none !important;
   }
   /deep/ .vjs-button > .vjs-icon-placeholder:before {
-    line-height: 1.2 !important;
+    line-height: 1.2em !important;
   }
   /deep/ .vjs-button > .vjs-icon-placeholder:before {
     color: #fff !important;
@@ -345,7 +351,7 @@ body {
             margin-left: 24upx;
             height: 34upx;
             line-height: 34upx;
-            font-size: 36upx;
+            font-size: 32upx;
             font-family: PingFang SC;
             font-weight: 500;
             color: #333333;

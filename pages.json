@@ -179,7 +179,7 @@
 		}, {
 			"path": "pages/component/writeInformation/writeInformation"
 		}, {
-			"path": "pages/write_information/write_information",
+			"path": "pages/myset/write_information/write_information",
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false

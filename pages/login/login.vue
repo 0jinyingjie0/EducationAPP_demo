@@ -76,8 +76,8 @@ export default {
     return {
       value: "",
       loading: false,
-      userName: "",
-      password: "",
+      userName: "xiaoming",
+      password: "123456",
       rememberPassword: "",
       background: {
         "background-image": "url('../Img/loginImg/back.png')",
@@ -106,7 +106,10 @@ export default {
         });
         return;
       }
-      this.loading = true;
+       uni.navigateTo({
+        url: "../login/register",
+      });
+      // this.loading = true;
       //   this.$request({
       //     url: this.loginURL + "/login",
       //     method: "POST",

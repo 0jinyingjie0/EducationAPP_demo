@@ -19,6 +19,12 @@
         <div class="messageRight">没事，就是随便问问</div>
       </div>
     </div>
+    <div class="footer">
+      <div class="search">
+        <u-input v-model="footerSearch" type="text" placeholder="回答问题..." />
+      </div>
+      <div class="send">发送</div>
+    </div>
   </div>
 </template>
 
@@ -153,6 +159,58 @@ page {
         right: -36upx;
         top: 20upx;
       }
+    }
+  }
+  .footer {
+    position: absolute;
+    bottom: 20upx;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 131upx;
+    // background-color: #e7e7e7;
+    /deep/ .uni-input-wrapper {
+      background-color: #fff;
+    }
+    /deep/ .u-input {
+      padding: 0px !important;
+      height: 100%;
+      /deep/ .u-input__input[data-v-460c1d26] {
+        height: 66upx !important;
+        min-height: 66upx !important;
+      }
+      /deep/ .uni-input-wrapper {
+        height: 66upx;
+        /deep/ .uni-input-placeholder {
+          margin-left: 20upx;
+          font-size: 26upx;
+          font-family: PingFang SC;
+          font-weight: 500;
+          color: #b9b9b9;
+        }
+      }
+      /deep/ .uni-input-input {
+        height: 66upx;
+        
+      }
+    }
+    .search {
+      border: 2upx solid #ccc;
+      border-radius: 3px;
+      width: 560upx;
+      height: 66upx;
+      margin-top: 32upx;
+      margin-left: 32upx;
+    }
+    .send {
+      width: 120upx;
+      height: 66upx;
+      margin-top: 32upx;
+      margin-left: 10upx;
+      background: #43b4ae;
+      line-height: 66upx;
+      text-align: center;
+      color: #fff;
     }
   }
 }
