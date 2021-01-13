@@ -1,7 +1,11 @@
 <!-- 我的待办页面 -->
 <template>
 	<view class="body">
+<<<<<<< HEAD
 		<u-navbar :is-back="true" title="我的待办" title-color="#ffffff" title-size="18px" back-icon-color="#fff" :background="background">
+=======
+		<u-navbar :is-back="true" title="我的待办" title-color="#ffffff" title-size="36upx" back-icon-color="#fff" :background="background" style="margin-top:-88upx">
+>>>>>>> zhang
 		</u-navbar>
 		<u-tabs name="cate_name" active-color="#43B4AE" inactive-color="#4D4D4D" count="cate_count" :list="list" :is-scroll="false" :current="current" @change="change"></u-tabs>
 		<view class="container">
@@ -30,7 +34,10 @@
 			return {
 				background: {
 					backgroundColor: '#44B4AE',
+<<<<<<< HEAD
 					height: "44px",
+=======
+>>>>>>> zhang
 				},
 				list: [{
 					cate_name: '未读消息'
@@ -48,7 +55,11 @@
 	}
 </script>
 
+<<<<<<< HEAD
 <style scoped>
+=======
+<style lang="scss" scoped>
+>>>>>>> zhang
 	.body {
 		width: 100%;
 	}
@@ -57,7 +68,11 @@
 		padding: 0 30upx;
 	}
 	.un_read {
+<<<<<<< HEAD
 		width: 690upx;
+=======
+		/* width: 690upx; */
+>>>>>>> zhang
 		height: 142upx;
 		padding: 31upx  30upx 48upx 30upx ;
 		font-size: 30upx;
@@ -77,7 +92,11 @@
 	}
 	.litel_name{
 		display: inline-block;
+<<<<<<< HEAD
 		// width: 156upx;
+=======
+		/* // width: 156upx; */
+>>>>>>> zhang
 		margin-left: 47upx;
 		margin-top: 17upx;
 		height: 21upx;

@@ -1,10 +1,17 @@
 <!-- 修改手机号码页面 -->
 <template>
 	<view class="body">
+<<<<<<< HEAD
 		<u-navbar :is-back="true" title="修改手机号码" title-color="#ffffff" title-size="18px" back-icon-color="#fff" :background="background">
 		</u-navbar>
 		<view class="container">
 			<u-form :model="form" ref="uForm" color="#333333" label-width="70px" align="left" style="width: 333px;"
+=======
+		<u-navbar :is-back="true" title="修改手机号码" title-color="#ffffff" title-size="36upx" back-icon-color="#fff" :background="background">
+		</u-navbar>
+		<view class="container">
+			<u-form :model="form" ref="uForm" color="#333333" label-width="140upx" align="left" style="width: 666upx;"
+>>>>>>> zhang
 			 :border-bottom="false">
 				<u-form-item label="手机号" :border-bottom="true">
 					<u-input class="select_value" placeholder="请输入手机号" input-align="left" v-model="form.phone_number" />
@@ -30,7 +37,11 @@
 			return {
 				background: {
 					backgroundColor: '#44B4AE',
+<<<<<<< HEAD
 					height: "44px",
+=======
+					// height: "44upx",
+>>>>>>> zhang
 				},
 				form: {
 					phone_number: "",
@@ -122,12 +133,17 @@
 
 <style scoped>
 	.body {
+<<<<<<< HEAD
 		width: 375px;
+=======
+		/* width: 750upx; */
+>>>>>>> zhang
 		background-color: rgba(229, 227, 227, 0.16);
 	}
 
 	.container {
 		background-color: #FFFFFF;
+<<<<<<< HEAD
 		padding: 0 15px;
 		margin-bottom: 60px;
 	}
@@ -144,6 +160,24 @@
 		font-weight: bold;
 		color: #FFFFFF;
 		margin-left: 15px;
+=======
+		padding: 0 30upx;
+		margin-bottom: 120upx;
+	}
+
+	.out_btn {
+		/* width: 690upx; */
+		height: 98upx;
+		line-height: 98upx;
+		text-align: center;
+		background: #44B4AE;
+		border-radius: 12upx;
+		font-size: 32upx;
+		font-family: PingFang SC;
+		font-weight: bold;
+		color: #FFFFFF;
+		margin-left: 30upx;
+>>>>>>> zhang
 	}
 
 	.select_value {
@@ -151,16 +185,27 @@
 	}
 
 	.code_btn {
+<<<<<<< HEAD
 		font-size: 15px;
+=======
+		font-size: 30upx;
+>>>>>>> zhang
 		font-family: PingFang SC;
 		font-weight: 500;
 		color: #E92222;
 	}
 	.lia {
+<<<<<<< HEAD
 	    width: 690rpx;
 	    height: 105rpx;
 	    margin: 0 auto;
 	    border-bottom: 1rpx solid #f1f1f1;
+=======
+	    /* width: 690upx; */
+	    height: 210upx;
+	    margin: 0 auto;
+	    border-bottom: 2upx solid #f1f1f1;
+>>>>>>> zhang
 	    display: flex;
 	    flex-direction: row;
 	    flex-wrap: nowrap;
@@ -168,28 +213,48 @@
 	    justify-content: space-between;
 	}
 	.shuruqian {
+<<<<<<< HEAD
 	    height: 50rpx;
 	    width: 60%;
 	    font-size: 32rpx;
+=======
+	    height: 100upx;
+	    width: 60%;
+	    font-size: 64upx;
+>>>>>>> zhang
 	    font-family: PingFangSC-Regular, PingFang SC;
 	    font-weight: 400;
 	}
 	.shuruhou {
+<<<<<<< HEAD
 	    height: 50rpx;
 	    width: 60%;
 	    font-size: 36rpx;
+=======
+	    height: 100upx;
+	    width: 60%;
+	    font-size: 72upx;
+>>>>>>> zhang
 	    font-family: PingFangSC-Regular, PingFang SC;
 	    font-weight: 400;
 	    color: #333333;
 	}
 	.huoqu {
+<<<<<<< HEAD
 	    font-size: 32rpx;
+=======
+	    font-size: 64upx;
+>>>>>>> zhang
 	    font-family: PingFangSC-Regular, PingFang SC;
 	    font-weight: 400;
 	    color: #2d8bff;
 	}
 	.huoquzhong {
+<<<<<<< HEAD
 	    font-size: 32rpx;
+=======
+	    font-size: 64upx;
+>>>>>>> zhang
 	    font-family: PingFangSC-Regular, PingFang SC;
 	    font-weight: 400;
 	    color: #999999;

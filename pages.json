@@ -129,7 +129,11 @@
 			}
 		},
 		{
+<<<<<<< HEAD
 			"path": "pages/myset/myProfile/index", // 我的资料页面
+=======
+			"path": "pages/myset/myProfile/index",  // 我的资料页面
+>>>>>>> zhang
 			"style": {
 				"navigationStyle": "custom" //自定义头部导航栏
 			}

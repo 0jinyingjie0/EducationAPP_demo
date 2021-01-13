@@ -1,10 +1,17 @@
 <!-- 修改密码页面 -->
 <template>
 	<view class="body">
+<<<<<<< HEAD
 		<u-navbar :is-back="true" title="修改密码" title-color="#ffffff" title-size="18px" back-icon-color="#fff" :background="background">
 		</u-navbar>
 		<view class="container">
 			<u-form :model="form" ref="uForm" color="#333333" label-width="70px" align="left" style="width: 333px;"
+=======
+		<u-navbar :is-back="true" title="修改密码" title-color="#ffffff" title-size="36upx" back-icon-color="#fff" :background="background">
+		</u-navbar>
+		<view class="container">
+			<u-form :model="form" ref="uForm" color="#333333" label-width="140upx" align="left" style="width: 666upx;"
+>>>>>>> zhang
 			 :border-bottom="false">
 				<u-form-item label="原密码" :border-bottom="true">
 					<u-input class="select_value" placeholder="请输入原密码" input-align="left" v-model="form.phone_number" />
@@ -28,7 +35,11 @@
 			return {
 				background: {
 					backgroundColor: '#44B4AE',
+<<<<<<< HEAD
 					height: "44px",
+=======
+					// height: "44upx",
+>>>>>>> zhang
 				},
 				form: {
 					phone_number: "",
@@ -73,11 +84,16 @@
 
 <style scoped>
 	.body {
+<<<<<<< HEAD
 		width: 375px;
+=======
+		width: 750upx;
+>>>>>>> zhang
 		background-color: rgba(229, 227, 227, 0.16);
 	}
 	.container {
 		background-color: #FFFFFF;
+<<<<<<< HEAD
 		padding: 0 15px;
 	}
 	.out_btn {
@@ -102,5 +118,31 @@
 		font-weight: 400;
 		color: #999999;
 		padding: 15px;
+=======
+		padding: 0 30upx;
+	}
+	.out_btn {
+		width: 690upx;
+		height: 98upx;
+		line-height: 98upx;
+		text-align: center;
+		background: #44B4AE;
+		border-radius: 12upx;
+		font-size: 32upx;
+		font-family: PingFang SC;
+		font-weight: bold;
+		color: #FFFFFF;
+		margin-left: 30upx;
+		margin-top: 120upx;
+	}
+	.tips{
+		height: 34upx;		
+		line-height: 34upx;
+		font-size: 24upx;
+		font-family: PingFang SC;
+		font-weight: 400;
+		color: #999999;
+		padding: 30upx;
+>>>>>>> zhang
 	}
 </style>

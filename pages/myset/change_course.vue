@@ -23,7 +23,11 @@
 			return {
 				background: {
 					backgroundColor: '#44B4AE',
+<<<<<<< HEAD
 					height: "88upx",
+=======
+					// height: "88upx",
+>>>>>>> zhang
 				},
 				line:true,
 				list: [{
@@ -79,7 +83,11 @@
 
 <style scoped>
 	.body {
+<<<<<<< HEAD
 		width: 750upx;
+=======
+		/* width: 750upx; */
+>>>>>>> zhang
 		background-color: rgba(229, 227, 227, 0.16);
 	}
 
@@ -109,7 +117,11 @@
 	}
 	.btn{
 		background-color: rgba(229, 227, 227, 0.16);
+<<<<<<< HEAD
 		width: 600upx;
+=======
+		/* width: 600upx; */
+>>>>>>> zhang
 		height: 98upx;
 		line-height: 98upx;
 		text-align: center;
@@ -120,6 +132,10 @@
 		font-weight: bold;
 		color: #FFFFFF;
 		margin-left: 45upx;
+<<<<<<< HEAD
+=======
+		margin-right:45upx ;
+>>>>>>> zhang
 		margin-top: 200upx;
 	}
 </style>

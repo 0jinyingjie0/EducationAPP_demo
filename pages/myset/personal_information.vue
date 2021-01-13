@@ -3,7 +3,11 @@
 	<view class="body">
 		<u-navbar class="nav" :is-back="true" title="" back-icon-color="#fff" :background="background">
 			<view class="head">
+<<<<<<< HEAD
 				<image class="code" src="../../static/saoyisao@2x.png" mode="" ></image>
+=======
+				<image class="code" src="../../static/saoyisao@2x.png" mode=""></image>
+>>>>>>> zhang
 				<image class="set" src="../../static/shezhi@2x.png" mode="" @click="toSetPage"></image>
 			</view>
 			<view class="infonamtion">
@@ -12,6 +16,7 @@
 					<view class="name">赵丽娜</view>
 					<view class="school">同学，欢迎回来</view>
 				</view>
+<<<<<<< HEAD
 				<u-icon class="right_icon" name="arrow-right" ></u-icon>
 			</view>
 		</u-navbar>
@@ -29,6 +34,56 @@
 		<view class="container">
 			<div @click="toMyMsg">我的消息</div>
 			<div @click="toMySemester">学期选课</div>
+=======
+				<u-icon class="right_icon" name="arrow-right"></u-icon>
+			</view>
+		</u-navbar>
+		<view class="info_bg">
+			<view class="info">
+				<view class="my_find">
+					我的发现
+				</view>
+				<view class="three_icons">
+					<view class="info_icon">
+						<image class="three_icon" src="../../static/chengjichaxun.png" mode="" @click="toSearchGrade"></image>
+						<view class="three_word" style="margin-left: -25upx;">成绩查询</view>
+					</view>
+					<view class="info_icon">
+						<image class="three_icon" src="../../static/daiban@2x.png" mode="" @click="toMyBacklog"></image>
+						<view class="three_word" style="margin-left: -20upx;">我的待办</view>
+					</view>
+					<view class="info_icon">
+						<image  class="three_icon" src="../Img/customer/kefu.png" mode="" @click="toServe"></image>
+						<view class="three_word">找客服</view>
+					</view>				
+				</view>
+			</view>
+		</view>
+		<view class="school_info">
+			<view class="school_name">
+				遵义职业技术学院
+			</view>
+			<view class="un_read">
+				<image class="image_icon" src="../Img/courseImg/xiaoxi.png" mode=""></image>
+				<view class="school_item" @click="toMyMsg">我的消息</view>
+				<u-icon class="right_icon" name="arrow-right"></u-icon>
+			</view>
+			<view class="un_read">
+				<image class="image_icon" src="../../static/jiaofei@2x.png" mode=""></image>
+				<view class="school_item">缴费信息</view>
+				<u-icon class="right_icon" name="arrow-right"></u-icon>
+			</view>
+			<view class="un_read">
+				<image class="image_icon" src="../../static/xuanke@2x.png" mode=""></image>
+				<view class="school_item" @click="toMySemester">学期选课</view>
+				<u-icon class="right_icon" name="arrow-right"></u-icon>
+			</view>
+			<view class="un_read">
+				<image class="image_icon" src="../../static/bangzhu@2x.png" mode=""></image>
+				<view class="school_item">帮助与反馈</view>
+				<u-icon class="right_icon" name="arrow-right"></u-icon>
+			</view>
+>>>>>>> zhang
 		</view>
 	</view>
 </template>
@@ -136,6 +191,18 @@
 <style lang="scss" scoped>
 	.body {
 		width: 750upx;
+<<<<<<< HEAD
+=======
+		height: 1000upx;
+		background-color: #fafafa !important;
+	}
+	/deep/.uni-page-wrapper{
+		// display: block;
+		background-color: #ccc;  
+		display: block;
+		    height: 100%;
+		    position: relative;
+>>>>>>> zhang
 	}
 
 	.nav {
@@ -145,9 +212,14 @@
 	.head {
 		height: 46upx;
 		position: absolute;
+<<<<<<< HEAD
 		top: 100upx;
 		right: 30upx;
 		z-index: 999;
+=======
+		top: 30upx;
+		right: 30upx;
+>>>>>>> zhang
 	}
 
 	.code {
@@ -169,11 +241,16 @@
 	}
 	/* 头像 部分 */
 	.info_bg {
+<<<<<<< HEAD
 		height: 358upx;
+=======
+		height: 300upx;
+>>>>>>> zhang
 		width: 750upx;
 		position: relative;
 		position: fixed;
 		z-index: 999;
+<<<<<<< HEAD
 		.three_icon{
 			margin-top: 100px;
 			image {
@@ -186,16 +263,36 @@
 	.info {
 		width: 750upx;
 		height: 255upx;
+=======
+	}
+	
+	.info {
+		width: 690px;
+		height: 300upx;
+>>>>>>> zhang
 		background-color: #FFFFFF;
 		box-shadow: 0px 2upx 16upx 0px rgba(229, 227, 227, 0.49);
 		border-radius: 12upx;
 		position: absolute;
+<<<<<<< HEAD
 		top: 160upx;
+=======
+		top: 190upx;
+>>>>>>> zhang
 		left: 30upx;
 		/* position: relative; */
 		z-index: 999;
 	}
+<<<<<<< HEAD
 
+=======
+	.info_icon{
+		width: 130upx;
+		height: 130upx;
+		float: left;
+		margin-left: 85upx;
+	}
+>>>>>>> zhang
 	.head_photo {
 		width: 142upx;
 		height: 142upx;
@@ -218,8 +315,13 @@
 	}
 
 	.school {
+<<<<<<< HEAD
 		height: 29px;
 		font-size: 28px;
+=======
+		height: 29upx;
+		font-size: 28upx;
+>>>>>>> zhang
 		font-family: PingFang SC;
 		font-weight: 400;
 		color: #FFFFFF;
@@ -244,4 +346,75 @@
 		margin-right: 60upx;
 		margin-bottom: 74upx;
 	}
+<<<<<<< HEAD
+=======
+	.three_icon{
+		width:72upx ;
+		height: 72upx;
+		
+	}
+	.my_find{
+		height: 30upx;
+		font-size: 30upx;
+		font-family: PingFang SC;
+		font-weight: 500;
+		color: #333333;
+		margin: 40upx 0upx 52upx 29upx;
+	}
+	.three_word{
+		margin-top: 15upx;
+		margin-left: -6upx;
+	}
+	.school_info{
+		width:690upx ;
+		height: 628upx;
+		background-color: #FFFFFF;
+		margin-top: 530upx;
+		margin-left:30upx ;
+		border-radius: 5upx;
+		padding: 60upx 5upx 65upx 29upx;
+	}
+	.un_read {
+		width: 690upx;
+		height: 142upx;
+		padding: 31upx  30upx 48upx 30upx ;
+		font-size: 30upx;
+		font-family: PingFang SC;
+		font-weight: 500;
+		color: #333333;
+		position: relative;
+	}
+	.select_all {
+		width: 464upx;
+	}
+	.school_item{
+		display: inline-block;
+		height: 50upx;
+		font-size: 35upx;
+		font-family: PingFang SC;
+		font-weight: 500;
+		color: #333333;
+		line-height: 90upx;
+	}
+	.image_icon{
+		display: inline-block;
+		width: 32upx;
+		height: 40upx;
+		margin-right: 23upx;
+	}
+	.right_icon{
+		position: absolute;
+		top: 50upx;
+		right: 30upx;
+		color: #CCCCCC;
+	}
+	.school_name{
+		margin-bottom: 40upx;
+		height: 29px;
+		font-size: 30px;
+		font-family: PingFang SC;
+		font-weight: bold;
+		color: #333333;
+	}
+>>>>>>> zhang
 </style>

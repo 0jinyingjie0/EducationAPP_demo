@@ -4,7 +4,11 @@
 		<u-navbar class="nav" :is-back="true" title="" back-icon-color="#fff" :background="background">
 		</u-navbar>
 		<view class="container">
+<<<<<<< HEAD
 			<u-form :model="form" ref="uForm" color="#333333" label-width="100px" align="left" style="width: 313px;"
+=======
+			<u-form :model="form" ref="uForm" color="#333333" label-width="200upx" align="left" style="width: 313px;"
+>>>>>>> zhang
 			 :border-bottom="false">
 				<u-form-item label="性名" :border-bottom="false">
 					<u-input class="select_value" input-align="right" v-model="form.info.name" />
@@ -17,7 +21,11 @@
 				</u-form-item>
 				<u-form-item label="联系方式" :border-bottom="false">
 					<u-input input-align="right" v-model="form.info.number" />
+<<<<<<< HEAD
 					<span style="margin-left: 4.5px;">|</span>
+=======
+					<span style="margin-left: 9px;">|</span>
+>>>>>>> zhang
 				</u-form-item>
 				<u-form-item label="选择学校" :border-bottom="false">
 					<u-select @confirm="confirm" class="select_all" v-model="school_show" :list="school"></u-select>
@@ -51,7 +59,11 @@
 			return {
 				background: {
 					backgroundColor: '#ffff',
+<<<<<<< HEAD
 					height: "50px",
+=======
+					height: "100upx",
+>>>>>>> zhang
 					backIconColor: '#fff'
 				},
 				show: false,
@@ -171,6 +183,7 @@
 
 <style scoped>
 	.body {
+<<<<<<< HEAD
 		width: 375px;
 		background-color: rgba(229, 227, 227, 0.16);
 		/* margin-top: 10px; */
@@ -185,6 +198,21 @@
 		box-shadow: 1px 1px 1px 1px rgba(229, 227, 227, 0.49);
 		border-radius: 6px;
 		padding: 10px 0px 10px 10px;
+=======
+		/* width: 100%; */
+		background-color: rgba(229, 227, 227, 0.16);
+		/* margin-top: 10px; */
+	}
+	.container {
+		/* width: 690upx; */
+		background-color: #FFFFFF;
+		/* height: 478px; */
+		margin: -50upx 30upx 112upx 30upx;
+		background: #FFFFFF;
+		box-shadow: 2upx 2upx 2upx 2upx rgba(229, 227, 227, 0.49);
+		border-radius: 12upx;
+		padding: 20upx 0px 20upx 20upx;
+>>>>>>> zhang
 		color: #44B4AE;
 	}
 
@@ -192,6 +220,7 @@
 		color: #44B4AE;
 	}
 	.select_all {
+<<<<<<< HEAD
 		width: 200px;
 	}
 	.out_btn {
@@ -206,5 +235,22 @@
 		font-weight: bold;
 		color: #FFFFFF;
 		margin-left: 15px;
+=======
+		width: 400upx;
+	}
+	.out_btn {
+		/* width: 690upx; */
+		height: 98upx;
+		line-height: 98upx;
+		text-align: center;
+		background: #44B4AE;
+		border-radius: 12upx;
+		font-size: 32upx;
+		font-family: PingFang SC;
+		font-weight: bold;
+		color: #FFFFFF;
+		margin-right: 30px;
+		margin-left: 30upx;
+>>>>>>> zhang
 	}
 </style>

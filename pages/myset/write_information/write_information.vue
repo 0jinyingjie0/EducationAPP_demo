@@ -1,7 +1,11 @@
 <!-- 我的消息页面 -->
 <template>
 	<view class="body">
+<<<<<<< HEAD
 		<u-navbar :is-back="true" title="填写信息" title-color="#ffffff" title-size="18px" back-icon-color="#fff" :background="background">
+=======
+		<u-navbar :is-back="true" title="填写信息" title-color="#ffffff" title-size="36upx" back-icon-color="#fff" :background="background">
+>>>>>>> zhang
 		</u-navbar>
 		<view class="container">
 			<view class="un_read">
@@ -42,7 +46,11 @@
 			return {
 				background: {
 					backgroundColor: '#44B4AE',
+<<<<<<< HEAD
 					height: "44px",
+=======
+					// height: "44upx",
+>>>>>>> zhang
 					// color:'#ffffff',
 					// title-color:'#ffffff'
 				},
@@ -62,12 +70,21 @@
 
 <style scoped>
 	.body {
+<<<<<<< HEAD
 		width: 375px;
 	}
 
 	.navbar-right {
 		margin-right: 15px;
 		font-size: 15px;
+=======
+		/* width: 750upx; */
+	}
+
+	.navbar-right {
+		margin-right: 30upx;
+		font-size: 30upx;
+>>>>>>> zhang
 		font-family: PingFang SC;
 		font-weight: 500;
 		color: #FFFFFF;
@@ -76,6 +93,7 @@
 
 	.container {
 		background-color: #FFFFFF;
+<<<<<<< HEAD
 		padding: 0 15px;
 	}
 
@@ -84,6 +102,16 @@
 		height: 60px;
 		padding: 23px 0;
 		font-size: 15px;
+=======
+		padding: 0 30upx;
+	}
+
+	.un_read {
+		/* width: 690upx; */
+		height: 120upx;
+		padding: 46upx 0;
+		font-size: 30upx;
+>>>>>>> zhang
 		font-family: PingFang SC;
 		font-weight: 500;
 		color: #333333;
@@ -91,9 +119,15 @@
 	}
 
 	.small_red {
+<<<<<<< HEAD
 		margin-right: 6px;
 		width: 6px;
 		height: 6px;
+=======
+		margin-right: 12upx;
+		width: 12upx;
+		height: 12upx;
+>>>>>>> zhang
 		color: #E60012;
 		background-color: #E60012;
 		border-radius: 50%;
@@ -106,7 +140,11 @@
 		bottom: 0;
 	}
 	.time {
+<<<<<<< HEAD
 		font-size: 15px;
+=======
+		font-size: 30upx;
+>>>>>>> zhang
 		font-family: Roboto;
 		font-weight: 400;
 		color: #999999;
