@@ -13,6 +13,9 @@
 </script>
 
 <style lang="scss">
+// html {
+// 	font-size: 75px;
+// }
 	@import "uview-ui/index.scss";
 	::-webkit-scrollbar {  
 	    display: none;  

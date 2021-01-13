@@ -1,19 +1,14 @@
 <template>
 	<view class="">
 	<view>
-		<!-- <view class="" style="width:6px;height:6px;background:green;border-radius:15px;float:left;margin-top:30.5px;margin-left:15px">
-		</view>
-		<view class="title" style="margin-top:22.5px;margin-left:10px">期末考试</view>
-		<p style="float:left;margin-left:300px;margin-top:22.5px">></p>
-		<view class="title" style="margin-top:9px;margin-left:15px;color: #999999;">未答题    总分100分</view> -->
-        <view class="" style="width:6px;height:6px;background:green;border-radius:15px;float:left;margin-top:30.5px;margin-left:15px">
+        <view class="" style="width:6upx;height:6upx;background:green;border-radius:15upx;float:left;margin-top:38.5upx;margin-left:15upx">
         </view>
-        <view class="title" style="margin-top:22.5px;margin-left:10px">期末考试</view>
-        <p style="float:left;margin-left:300px;margin-top:22.5px">></p>
-        <view class="title" style="margin-top:9px;margin-left:15px;color:#999999">未答题    总分100分</view>
-        <!-- <p style="float:left;margin-left:220px;margin-top:45px">2020-11-10</p> -->
-        <view class="title" style="margin-top:35px;margin-left:-120px;color:#999999">起止日期</view>
-        <p style="float:left;margin-left:-50px;margin-top:35px">2020.12.15  00:00:00-2020.12.16  23:59:59</p>
+        <view class="title" style="margin-top:22.5upx;margin-left:10upx">期末考试</view>
+        <p style="float:left;margin-left:540upx;margin-top:22.5upx">></p>
+        <view class="title" style="margin-top:9upx;margin-left:15upx;color:#999999">未答题    总分100分</view>
+        
+        <view class="title" style="margin-top:55upx;margin-left:-224upx;color:#999999">起止日期</view>
+        <p style="float:left;margin-left:-78upx;margin-top:55upx">2020.12.15  00:00:00-2020.12.16  23:59:59</p>
 		
 		
 	</view>
