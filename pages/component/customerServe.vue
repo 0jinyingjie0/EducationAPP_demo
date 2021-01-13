@@ -33,6 +33,7 @@ export default {
   data() {
     return {
       navTitle: "2020.12.22 10.32.00",
+      footerSearch:"",
       messageDataList: [
         {
           status:"left"

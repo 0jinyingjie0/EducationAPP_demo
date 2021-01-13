@@ -222,7 +222,7 @@
 		box-shadow: 0px 2upx 16upx 0px rgba(229, 227, 227, 0.49);
 		border-radius: 12upx;
 		position: absolute;
-		top: 190upx;
+		top: 110upx;
 		left: 30upx;
 		/* position: relative; */
 		z-index: 999;
@@ -302,7 +302,7 @@
 		width:690upx ;
 		height: 628upx;
 		background-color: #FFFFFF;
-		margin-top: 530upx;
+		margin-top: 370upx;
 		margin-left:30upx ;
 		border-radius: 5upx;
 		padding: 60upx 5upx 65upx 29upx;
